@@ -37,16 +37,20 @@ PLACES_CACHE = CACHE_DIR / "google_places.json"
 NEWS_CACHE = CACHE_DIR / "news.json"
 STALE_AFTER = 7 * 24 * 3600
 
-BROKER_CODE_RE = re.compile(r"^[A-Z]{2,4}[\s\-]?\d{2,4}", re.I)
+# Share the stricter broker-descriptor detector from practice.py so we don't
+# burn Places quota on listings like "SW Denver GP $463K" or "12-op Practice".
+try:
+    from .practice import _looks_anonymized  # type: ignore
+except Exception:  # pragma: no cover - fallback when run as a script
+    BROKER_CODE_RE = re.compile(r"^[A-Z]{2,4}[\s\-]?\d{2,4}", re.I)
 
-
-def _looks_anonymized(name: str) -> bool:
-    if not name:
-        return True
-    if BROKER_CODE_RE.match(name.strip()):
-        return True
-    alpha_words = [w for w in re.findall(r"[A-Za-z]{3,}", name)]
-    return len(alpha_words) < 2
+    def _looks_anonymized(name: str) -> bool:
+        if not name:
+            return True
+        if BROKER_CODE_RE.match(name.strip()):
+            return True
+        alpha_words = [w for w in re.findall(r"[A-Za-z]{3,}", name)]
+        return len(alpha_words) < 2
 
 
 def _cache_load(path: Path) -> dict:
@@ -157,6 +161,11 @@ def enrich(listing: dict, ctx: dict) -> None:
 
     rating = _google_rating(name, city, listing.get("market", "").split(",")[-1].strip())
     if rating and rating.get("stars") is not None:
+        # Attach a Maps deep-link so the UI can render the rating as a clickable
+        # pill that jumps straight to the verified Google Business Profile.
+        pid = rating.get("placeId")
+        if pid:
+            rating["mapsUrl"] = f"https://www.google.com/maps/place/?q=place_id:{pid}"
         e["googleRating"] = {"value": rating, "conf": "verified"}
 
     cache = _cache_load(NEWS_CACHE)

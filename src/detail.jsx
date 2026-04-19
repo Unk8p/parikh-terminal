@@ -105,8 +105,14 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
             ? <a href={e.practiceUrl.value} target="_blank" rel="noopener">{e.practiceUrl.value.replace(/^https?:\/\//, '')}</a>
             : null} confidence={e.practiceUrl?.conf} />
           <Fact label="Google rating" value={e.googleRating?.value
-            ? `★ ${e.googleRating.value.stars} (${e.googleRating.value.count})`
-            : null} confidence={e.googleRating?.conf} />
+            ? (e.googleRating.value.mapsUrl
+                ? <a href={e.googleRating.value.mapsUrl} target="_blank" rel="noopener" style={{ color: 'var(--gold)', textDecoration: 'none', borderBottom: '1px dashed var(--gold)', paddingBottom: 1 }}>
+                    ★ {e.googleRating.value.stars} ({e.googleRating.value.count})
+                  </a>
+                : `★ ${e.googleRating.value.stars} (${e.googleRating.value.count})`)
+            : null} confidence={e.googleRating?.conf}
+            fallbackUrl={`https://www.google.com/search?q=${encodeURIComponent(`${l.name} ${l.city} dentist reviews`)}`}
+            fallbackLabel="Search Google →" />
           <Fact label="Owner name" value={e.ownerName?.value} confidence={e.ownerName?.conf} />
           <Fact label="License #" value={e.licenseNumber?.value} confidence={e.licenseNumber?.conf} mono
              fallbackUrl={e.licenseNumber?.lookupUrl} fallbackLabel="Look up on state board →" />
