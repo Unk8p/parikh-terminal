@@ -1,0 +1,62 @@
+[
+  {
+    "factor": "Practice Type",
+    "weight": "+20 pts",
+    "criteria": "Solo Owner: +15 | Eponymous: +5 | DSO: -55 | Corp: -30",
+    "relevance": "Solo owners = easier FFS transition"
+  },
+  {
+    "factor": "FFS Status",
+    "weight": "+15 pts (NEW)",
+    "criteria": "Already FFS: +15 | FFS-heavy mix: +10 | PPO/FFS: +5 | Medicaid: -5",
+    "relevance": "FFS practices are the primary target"
+  },
+  {
+    "factor": "Specialty Match",
+    "weight": "+10 pts",
+    "criteria": "General/Family: +8 | Unknown: +5 | Ortho/Pedo: -10",
+    "relevance": "GP + your implant/sedation = FFS premium"
+  },
+  {
+    "factor": "Size (Operatories)",
+    "weight": "+10 pts",
+    "criteria": "4-7 ops: +10 | 3: +7 | 8-10: +5 | 1-2 or 11+: +2",
+    "relevance": "4-7 ops ideal for solo FFS practice"
+  },
+  {
+    "factor": "Collections Range",
+    "weight": "+10 pts",
+    "criteria": "$500K-$1.5M: +10 | $300-500K: +7 | $1.5-2.5M: +5",
+    "relevance": "Moderate collections easier to transition to FFS"
+  },
+  {
+    "factor": "Location (FFS-friendly)",
+    "weight": "+10 pts (NEW)",
+    "criteria": "Affluent suburb: +10 | Rural/underserved: +8 | Urban: +3",
+    "relevance": "Suburbs + rural = less price sensitivity"
+  },
+  {
+    "factor": "Retirement Signals",
+    "weight": "+10 pts",
+    "criteria": "Low reviews: +5 | No website: +3 | DDS in name: +2",
+    "relevance": "Retiring docs = motivated sellers"
+  },
+  {
+    "factor": "Distress Signals",
+    "weight": "+10 pts",
+    "criteria": "Closed temp: +15 | Low rating: +6-10 | No rating: +4",
+    "relevance": "Distress = negotiation leverage"
+  },
+  {
+    "factor": "Growth Potential",
+    "weight": "+5 pts",
+    "criteria": "Room to add ops: +3 | Can add implant/sedation: +2",
+    "relevance": "Your skills unlock premium FFS services"
+  },
+  {
+    "factor": "Thriving Penalty",
+    "weight": "-13 pts",
+    "criteria": "4.8+ rating + 100 reviews: -5 | 500+ reviews: -8",
+    "relevance": "Thriving practices command premium, resist change"
+  }
+]
