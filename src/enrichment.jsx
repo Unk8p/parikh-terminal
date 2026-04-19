@@ -201,29 +201,48 @@ function hydrateListing(l) {
   // Already hydrated? skip
   if (l.__hydrated) return l;
   const coords = window.CITY_COORDS[l.city] || null;
+
+  // Start from whatever the nightly pipeline wrote into `enrich`.
+  // Fall back to the full schema so the UI always has every slot.
+  const pipelineEnrich = l.enrich || {};
+  const baseEnrich = {
+    practiceUrl:   { value: null, conf: 'unknown' },
+    ownerName:     { value: null, conf: 'unknown' },
+    licenseNumber: { value: null, conf: 'unknown' },
+    yearsLicensed: { value: null, conf: 'unknown' },
+    sedationPermit:{ value: null, conf: 'unknown' },
+    googleRating:  { value: null, conf: 'unknown' }, // { stars, count }
+    proceduresOffered: { value: null, conf: 'unknown' },
+    recentHeadlines: { value: null, conf: 'unknown' },
+    medianIncome:    { value: null, conf: 'unknown' },
+    populationGrowth5y: { value: null, conf: 'unknown' },
+    competingPractices3mi: { value: null, conf: 'unknown' },
+    firstSeen:     { value: null, conf: 'unknown' },
+    lastChecked:   { value: null, conf: 'unknown' },
+    brokerName:    { value: null, conf: 'unknown' },
+    brokerPhone:   { value: null, conf: 'unknown' },
+    brokerEmail:   { value: null, conf: 'unknown' },
+    ...pipelineEnrich,
+  };
+
+  // Apply NDA overrides on top — they're authoritative over scraped data.
+  // See data/overrides.json + docs/NDA_UNLOCK.md.
+  const overrides = (window.PARIKH_OVERRIDES?.listings || {})[String(l.id)];
+  let nda = null;
+  if (overrides) {
+    nda = overrides._nda || null;
+    for (const [k, v] of Object.entries(overrides)) {
+      if (k.startsWith('_')) continue;
+      baseEnrich[k] = { value: v, conf: 'verified', source: 'nda' };
+    }
+  }
+
   return {
     ...l,
     __hydrated: true,
     coords,
-    // Practice-facts enrichment slots (Cowork fills)
-    enrich: {
-      practiceUrl:   { value: null, conf: 'unknown' },
-      ownerName:     { value: null, conf: 'unknown' },
-      licenseNumber: { value: null, conf: 'unknown' },
-      yearsLicensed: { value: null, conf: 'unknown' },
-      sedationPermit:{ value: null, conf: 'unknown' }, // big deal for your thesis
-      googleRating:  { value: null, conf: 'unknown' }, // { stars, count }
-      proceduresOffered: { value: null, conf: 'unknown' }, // array of strings
-      recentHeadlines: { value: null, conf: 'unknown' }, // array {title, url, date}
-      medianIncome:    { value: null, conf: 'unknown' }, // nearby census tract
-      populationGrowth5y: { value: null, conf: 'unknown' },
-      competingPractices3mi: { value: null, conf: 'unknown' },
-      firstSeen:     { value: null, conf: 'unknown' }, // date listing first appeared
-      lastChecked:   { value: null, conf: 'unknown' },
-      brokerName:    { value: null, conf: 'unknown' },
-      brokerPhone:   { value: null, conf: 'unknown' },
-      brokerEmail:   { value: null, conf: 'unknown' },
-    }
+    nda,             // { signedDate, cimReceived, source } — null if listing isn't unlocked
+    enrich: baseEnrich,
   };
 }
 

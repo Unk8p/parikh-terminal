@@ -1,6 +1,6 @@
 // Detail panel — listing deep-dive with enrichment fields, commute, deal model, outreach
 
-const { useState: useStateD } = React;
+const { useState: useStateD, useMemo: useMemoD, useEffect: useEffectD } = React;
 
 function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) {
   if (!listing) return null;
@@ -55,6 +55,7 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
               {l.ffs === 'potential' && <Chip tone="sky">FFS potential</Chip>}
               {l.fellowship?.rank && l.fellowship.rank <= 5 && <Chip tone="gold">Shreya rank #{l.fellowship.rank}</Chip>}
               {e.sedationPermit?.value === true && <Chip tone="sage">Sedation permit ✓</Chip>}
+              {l.nda && <Chip tone="sage" title={`CIM received ${l.nda.signedDate || ''} · ${l.nda.source || ''}`}>🔓 NDA unlocked</Chip>}
               {l.source && <Chip tone="ghost">{l.source}</Chip>}
             </div>
           </div>
@@ -87,31 +88,8 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
       </div>
 
       {/* Home base / commute */}
-      {geo && (
-        <>
-          <SectionLabel>Home base & commute</SectionLabel>
-          <div style={{ padding: '10px 22px 18px' }}>
-            <div style={{ padding: 14, background: 'var(--paper-3)', borderRadius: 8, marginBottom: 10 }}>
-              <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
-                Best-fit neighborhood
-              </div>
-              <div style={{ fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginTop: 3 }}>
-                {geo.neighborhood.name}
-              </div>
-              <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 3 }}>
-                Schools {geo.neighborhood.schools}/10 · ~${geo.neighborhood.priceK}K median home
-              </div>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-              <CommuteBox label="To practice" min={geo.toPractice} />
-              <CommuteBox label="To Shreya's hospital" min={geo.toShreya} />
-            </div>
-            <div style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 10, fontStyle: 'italic' }}>
-              Estimates from straight-line distance · Cowork pipeline will replace with Google Maps drive times.
-            </div>
-          </div>
-        </>
-      )}
+      <CommuteWidget listing={l} defaultGeo={geo} />
+
 
       {/* Practice facts (enrichable) */}
       <SectionLabel right={<span className="mono" style={{ fontSize: 10, color: 'var(--ink-4)' }}>refreshed nightly</span>}>
@@ -276,6 +254,160 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
       )}
     </aside>
   );
+}
+
+// CommuteWidget — lets user pick a home-base neighborhood and see what it
+// does to commute tradeoffs. Uses the haversine estimates from enrichment.jsx
+// (Google Maps drive-time integration can slot in later by replacing
+// estDriveMin with an async distance-matrix fetch).
+function CommuteWidget({ listing, defaultGeo }) {
+  const coords = window.CITY_COORDS?.[listing.city];
+  const hoods = window.NEIGHBORHOODS?.[listing.market] || [];
+  const shreya = window.SHREYA_ANCHORS?.[listing.market];
+
+  // Precompute commute times for every neighborhood in the market
+  const ranked = useMemoD(() => {
+    if (!coords || hoods.length === 0) return [];
+    return hoods.map(h => {
+      const toPractice = window.estDriveMin(window.milesBetween(h, coords));
+      const toShreya = shreya ? window.estDriveMin(window.milesBetween(h, shreya)) : null;
+      const combined = (toPractice || 0) + (toShreya || 0);
+      return { ...h, toPractice, toShreya, combined };
+    }).sort((a, b) => a.combined - b.combined);
+  }, [listing.id, coords, shreya, hoods]);
+
+  const [pickName, setPick] = useStateD(null);
+
+  // Reset pick when the listing changes. Prefer the scoring-algorithm default,
+  // fall back to the top-ranked anchor.
+  useEffectD(() => {
+    const fallback = defaultGeo?.neighborhood?.name || ranked[0]?.name || null;
+    setPick(fallback);
+  }, [listing.id]);
+
+  if (!coords || ranked.length === 0) {
+    return (
+      <>
+        <SectionLabel>Home base & commute</SectionLabel>
+        <div style={{ padding: '10px 22px 18px', fontSize: 12, color: 'var(--ink-3)', fontStyle: 'italic' }}>
+          No neighborhood anchors for this market yet — add them in src/enrichment.jsx → window.NEIGHBORHOODS.
+        </div>
+      </>
+    );
+  }
+
+  const pick = ranked.find(r => r.name === pickName) || ranked[0];
+
+  return (
+    <>
+      <SectionLabel right={shreya ? (
+        <span className="mono" style={{ fontSize: 10, color: 'var(--ink-4)' }}>
+          vs. {shreya.name.split('—')[0].trim()}
+        </span>
+      ) : null}>Home base &amp; commute</SectionLabel>
+      <div style={{ padding: '10px 22px 18px' }}>
+
+        {/* Selected neighborhood card */}
+        <div style={{ padding: 14, background: 'var(--paper-3)', borderRadius: 8, marginBottom: 10 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 10 }}>
+            <div>
+              <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
+                Home anchor
+              </div>
+              <div style={{ fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginTop: 3 }}>
+                {pick.name}
+              </div>
+              <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 3 }}>
+                Schools {pick.schools}/10 · ~${pick.priceK}K median
+              </div>
+            </div>
+            <CommuteScore combined={pick.combined} />
+          </div>
+        </div>
+
+        {/* Two-up commute boxes */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+          <CommuteBox label="To practice" min={pick.toPractice} />
+          <CommuteBox label="To Shreya's hospital" min={pick.toShreya} />
+        </div>
+
+        {/* Alternative neighborhoods ranked */}
+        <div style={{ marginTop: 14 }}>
+          <div className="mono" style={{
+            fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase',
+            letterSpacing: 0.6, marginBottom: 6,
+          }}>
+            Try another neighborhood ({ranked.length})
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+            {ranked.slice(0, 6).map(h => {
+              const active = h.name === pick.name;
+              return (
+                <button key={h.name} onClick={() => setPick(h.name)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 10,
+                    padding: '7px 10px', borderRadius: 6,
+                    background: active ? 'var(--sage-soft)' : 'var(--paper-2)',
+                    border: '1px solid var(--line)',
+                    textAlign: 'left',
+                    cursor: 'pointer',
+                  }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{
+                      fontSize: 13, fontWeight: active ? 600 : 500,
+                      color: active ? 'var(--moss)' : 'var(--ink)',
+                    }}>
+                      {h.name}
+                    </div>
+                    <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 1 }}>
+                      Schools {h.schools}/10 · ~${h.priceK}K
+                    </div>
+                  </div>
+                  <div className="num" style={{ fontSize: 12, color: 'var(--ink-2)', whiteSpace: 'nowrap' }}>
+                    <span style={{ color: tintForMin(h.toPractice) }}>~{h.toPractice}m</span>
+                    <span style={{ color: 'var(--ink-4)', margin: '0 4px' }}>·</span>
+                    <span style={{ color: tintForMin(h.toShreya) }}>~{h.toShreya ?? '—'}m</span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 12, fontStyle: 'italic' }}>
+          Times are straight-line estimates at 30 mph. Swap in Google Distance Matrix by replacing <span className="mono">estDriveMin</span> in enrichment.jsx.
+        </div>
+      </div>
+    </>
+  );
+}
+
+function CommuteScore({ combined }) {
+  // Quick badge summarizing whether this anchor is tenable.
+  const label = combined == null ? '—'
+    : combined <= 50 ? 'Great'
+    : combined <= 75 ? 'OK'
+    : combined <= 100 ? 'Tight'
+    : 'Tough';
+  const tone = combined == null ? 'ghost'
+    : combined <= 50 ? 'sage'
+    : combined <= 75 ? 'gold'
+    : 'rose';
+  return (
+    <div style={{ textAlign: 'right' }}>
+      <Chip tone={tone} size="xs">{label}</Chip>
+      <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 4 }}>
+        ~{combined}m combined
+      </div>
+    </div>
+  );
+}
+
+function tintForMin(min) {
+  if (min == null) return 'var(--ink-4)';
+  if (min <= 30) return 'var(--moss)';
+  if (min <= 45) return 'var(--gold)';
+  return 'var(--rose)';
 }
 
 function CommuteBox({ label, min }) {

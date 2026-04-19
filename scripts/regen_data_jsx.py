@@ -40,6 +40,28 @@ def regenerate(listings_json: Path, brokers_json: Path, data_jsx: Path) -> None:
     Path(data_jsx).write_text("\n".join(out), encoding="utf-8")
 
 
+def regenerate_overrides(overrides_json: Path, overrides_jsx: Path) -> None:
+    """Emit src/overrides.jsx from data/overrides.json.
+
+    Only the `listings` key is embedded — docstring fields (_schema, _example)
+    stay in the JSON for humans and are not shipped to the browser.
+    """
+    if not Path(overrides_json).exists():
+        payload = {"listings": {}}
+    else:
+        raw = json.loads(Path(overrides_json).read_text("utf-8"))
+        payload = {"listings": raw.get("listings", {})}
+
+    out = [
+        "// Auto-generated — NDA-unlocked listing overrides.",
+        "// Merged over the nightly `enrich` layer in hydrateListing().",
+        "// To add entries: see docs/NDA_UNLOCK.md (drop a CIM PDF in a Cowork chat).",
+        "window.PARIKH_OVERRIDES = " + json.dumps(payload, indent=2, ensure_ascii=False) + ";",
+        "",
+    ]
+    Path(overrides_jsx).write_text("\n".join(out), encoding="utf-8")
+
+
 def main(argv: list[str]) -> int:
     repo = Path(__file__).resolve().parent.parent
     regenerate(
@@ -48,6 +70,11 @@ def main(argv: list[str]) -> int:
         repo / "src" / "data.jsx",
     )
     print(f"[regen] wrote {repo / 'src' / 'data.jsx'}")
+    regenerate_overrides(
+        repo / "data" / "overrides.json",
+        repo / "src" / "overrides.jsx",
+    )
+    print(f"[regen] wrote {repo / 'src' / 'overrides.jsx'}")
     return 0
 
 

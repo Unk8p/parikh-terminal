@@ -230,11 +230,15 @@ def run(args) -> int:
     dump_json(LISTINGS_JSON, data)
     print(f"[enrich] wrote {LISTINGS_JSON}")
 
-    # Regenerate src/data.jsx
+    # Regenerate src/data.jsx and src/overrides.jsx
     try:
-        from regen_data_jsx import regenerate
+        from regen_data_jsx import regenerate, regenerate_overrides
         regenerate(LISTINGS_JSON, BROKERS_JSON, DATA_JSX)
         print(f"[enrich] wrote {DATA_JSX}")
+        overrides_json = REPO_ROOT / "data" / "overrides.json"
+        overrides_jsx = REPO_ROOT / "src" / "overrides.jsx"
+        regenerate_overrides(overrides_json, overrides_jsx)
+        print(f"[enrich] wrote {overrides_jsx}")
     except Exception as e:
         print(f"[enrich] regen_data_jsx failed: {e}", file=sys.stderr)
         if args.verbose:

@@ -12007,7 +12007,7 @@ window.PARIKH_DATA = {
       "notes": "Not on Shreya's rank list"
     }
   },
-  "generated": "2026-04-19T17:47:21+00:00Z"
+  "generated": "2026-04-19T18:03:04+00:00Z"
 };
 window.PARIKH_BROKERS = [
   {

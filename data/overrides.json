@@ -1,0 +1,19 @@
+{
+  "_schema": "Keyed by listing.id. Values merge over `enrich` with conf='verified'. Each override entry may include any subset of enrich fields plus an `_nda` block tracking when/how the NDA was signed.",
+  "_example": {
+    "42": {
+      "_nda": {
+        "signedDate": "2026-04-18",
+        "cimReceived": true,
+        "source": "Provide portal"
+      },
+      "ownerName": "Dr. Jane Smith",
+      "licenseNumber": "DDS-12345",
+      "yearsLicensed": 22,
+      "sedationPermit": true,
+      "practiceUrl": "https://smithdentalco.com",
+      "_notes": "Retiring in 2 years, open to 6-month transition."
+    }
+  },
+  "listings": {}
+}
