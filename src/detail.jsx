@@ -108,14 +108,17 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
             ? `★ ${e.googleRating.value.stars} (${e.googleRating.value.count})`
             : null} confidence={e.googleRating?.conf} />
           <Fact label="Owner name" value={e.ownerName?.value} confidence={e.ownerName?.conf} />
-          <Fact label="License #" value={e.licenseNumber?.value} confidence={e.licenseNumber?.conf} mono />
-          <Fact label="Years licensed" value={e.yearsLicensed?.value} confidence={e.yearsLicensed?.conf} mono />
+          <Fact label="License #" value={e.licenseNumber?.value} confidence={e.licenseNumber?.conf} mono
+             fallbackUrl={e.licenseNumber?.lookupUrl} fallbackLabel="Look up on state board →" />
+          <Fact label="Years licensed" value={e.yearsLicensed?.value} confidence={e.yearsLicensed?.conf} mono
+             fallbackUrl={e.yearsLicensed?.lookupUrl || e.licenseNumber?.lookupUrl} fallbackLabel="Look up on state board →" />
           <Fact label="Sedation permit" value={
             e.sedationPermit?.value === true ? 'Yes' :
             e.sedationPermit?.value === false ? 'No' : null
           } confidence={e.sedationPermit?.conf}
              accent={e.sedationPermit?.value === true ? 'sage' : null}
-             hint="sedationPermit" />
+             hint="sedationPermit"
+             fallbackUrl={e.sedationPermit?.lookupUrl} fallbackLabel="Check permit registry →" />
         </div>
 
         {/* Procedures */}

@@ -56,26 +56,121 @@ CITY_COORDS: dict[str, tuple[float, float]] = {
     "Parker": (39.5186, -104.7614),
     "Castle Rock": (39.3722, -104.8561),
     "Thornton": (39.8680, -104.9719),
-    # NC
+    "Wheat Ridge": (39.7661, -105.0772),
+    "Centennial": (39.5807, -104.8772),
+    "Lafayette": (39.9936, -105.0897),  # CO; FL Lafayette is tiny so CO wins
+    "Erie": (40.0500, -105.0500),
+    "Ft. Morgan": (40.2503, -103.7997),
+    "Pueblo": (38.2544, -104.6091),
+    "Broomfield": (39.9206, -105.0867),
+    # NC Triangle
     "Raleigh": (35.7796, -78.6382),
     "Durham": (35.9940, -78.8986),
     "Chapel Hill": (35.9132, -79.0558),
     "Cary": (35.7915, -78.7811),
     "Apex": (35.7320, -78.8503),
     "Wake Forest": (35.9798, -78.5097),
-    # Orlando
+    "Holly Springs": (35.6513, -78.8336),
+    # Orlando / central FL
     "Orlando": (28.5384, -81.3789),
     "Winter Park": (28.6000, -81.3392),
     "Winter Garden": (28.5651, -81.5861),
     "Lake Mary": (28.7589, -81.3184),
     "Windermere": (28.4951, -81.5347),
     "Altamonte Springs": (28.6611, -81.3656),
+    "Maitland": (28.6278, -81.3631),
+    "Doctor Phillips": (28.4492, -81.4984),
+    "Oviedo": (28.6700, -81.2081),
+    "Winter Springs": (28.6986, -81.2081),
+    "Kissimmee": (28.2920, -81.4076),
+    "The Villages": (28.9339, -81.9598),
+    "South Daytona": (29.1663, -81.0048),
+    "Crystal River": (28.9025, -82.5925),
+    "Delray Beach": (26.4615, -80.0728),
+    "Ocala": (29.1872, -82.1401),
     # Nashville
     "Nashville": (36.1627, -86.7816),
     "Franklin": (35.9251, -86.8689),
     "Brentwood": (36.0331, -86.7828),
     "Murfreesboro": (35.8456, -86.3903),
+    "Clarksville": (36.5298, -87.3595),
+    "Columbia": (35.6151, -87.0353),   # TN
+    "Goodlettsville": (36.3231, -86.7130),
+    # Seattle metro
+    "Seattle": (47.6062, -122.3321),
+    "Bellingham": (48.7519, -122.4787),
+    "Olympia": (47.0379, -122.9007),
+    # Portland OR metro
+    "Portland": (45.5152, -122.6784),  # OR dominant here
+    "Hillsboro": (45.5229, -122.9898),
+    "Gresham": (45.5000, -122.4300),
+    "Beaverton": (45.4871, -122.8037),
+    "McMinnville": (45.2101, -123.1984),
+    "Bend": (44.0582, -121.3153),
+    "Eugene": (44.0521, -123.0868),
+    "Lake Oswego": (45.4207, -122.6701),
+    "Florence": (43.9826, -124.0999),
+    "Astoria": (46.1879, -123.8313),
+    # Cincinnati metro
+    "Cincinnati": (39.1031, -84.5120),
+    "Columbus": (39.9612, -82.9988),   # OH
+    "Hamilton": (39.3995, -84.5613),   # OH, Butler County seat
+    "Fairfield": (39.3454, -84.5603),  # OH, Fairfield County
+    # St. Louis metro
+    "St. Louis": (38.6270, -90.1994),
+    "Arnold": (38.4328, -90.3770),     # MO, Jefferson County
+    "Belleville": (38.5201, -89.9840), # IL metro-east
+    # Springfield is listed as "Springfield MO" — MO dominant here
+    "Springfield": (37.2089, -93.2923),
+    "Springfield MO": (37.2089, -93.2923),
 }
+
+# Non-canonical city labels from broker listings → CITY_COORDS key.
+# Lets "Wake County", "45 min from STL", "Lafayette/Broomfield" resolve to
+# real geography without upstream data cleanup.
+CITY_ALIASES: dict[str, str] = {
+    "Lafayette/Broomfield": "Lafayette",
+    "Raleigh/Apex": "Raleigh",
+    "Apex/Holly Springs": "Apex",
+    "Wake County": "Raleigh",
+    "Triangle": "Raleigh",
+    "1hr from Raleigh": "Raleigh",
+    "SE Nashville": "Nashville",
+    "Near Scott AFB": "Belleville",
+    "Metro East IL": "Belleville",
+    "Illinois": "Belleville",
+    "45 min from STL": "St. Louis",
+    "1 hr from STL": "St. Louis",
+    "STL Area": "St. Louis",
+    "Jefferson County": "Arnold",
+    "Butler County": "Hamilton",
+    "Fairfield County": "Fairfield",
+}
+
+
+def canonical_city(city: str) -> str:
+    """Map messy listing city labels to a key present in CITY_COORDS."""
+    if not city:
+        return city
+    if city in CITY_ALIASES:
+        return CITY_ALIASES[city]
+    if city in CITY_COORDS:
+        return city
+    # strip trailing state suffix like "Springfield MO" → "Springfield"
+    if len(city) > 3 and city[-3] == " " and city[-2:].isalpha() and city[-2:].isupper():
+        stripped = city[:-3].strip()
+        if stripped in CITY_COORDS:
+            return stripped
+        if stripped in CITY_ALIASES:
+            return CITY_ALIASES[stripped]
+    # fuzzy: split on '/' and try the first token
+    if "/" in city:
+        first = city.split("/", 1)[0].strip()
+        if first in CITY_COORDS:
+            return first
+        if first in CITY_ALIASES:
+            return CITY_ALIASES[first]
+    return city
 
 # Rough state for each market — used as a fallback for Census lookups.
 MARKET_STATE = {
@@ -258,7 +353,8 @@ def _overpass_competing(lat: float, lng: float, cache: dict) -> Optional[int]:
 # --------------------------------------------------------------------------
 def enrich(listing: dict, ctx: dict) -> None:
     e = listing["enrich"]
-    city = listing.get("city") or ""
+    raw_city = listing.get("city") or ""
+    city = canonical_city(raw_city)
     market = listing.get("market") or ""
     state = MARKET_STATE.get(market, "")
 

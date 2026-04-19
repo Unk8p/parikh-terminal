@@ -108,13 +108,41 @@ PROCEDURE_KEYWORDS = [
 
 
 def _looks_anonymized(name: str) -> bool:
-    """Heuristic: broker-assigned codes like 'CO26-102 GP' are NOT real practice names."""
+    """Broker-written listing titles ('SW Denver GP $463K', 'Kissimmee
+    Practice', '12-op Practice') aren't real clinic names and make DDG
+    searches return broker directories + random yelp pages. Filter them
+    out before burning a web request."""
     if not name:
         return True
-    if BROKER_CODE_RE.match(name.strip()):
+    n = name.strip()
+    if BROKER_CODE_RE.match(n):
         return True
-    # Otherwise, if it has fewer than 2 alpha words of >2 letters, treat as anonymized
-    alpha_words = [w for w in re.findall(r"[A-Za-z]{3,}", name)]
+
+    # Any of these patterns means the title was written by a broker
+    # describing the practice, not the practice's own brand name.
+    BROKER_JARGON = [
+        r"\$\s*[\d\.,]+\s*[KMkm]\b",                  # $463K, $1.857M
+        r"\b\d+\s*op(s|ops)?\b",                       # 5 ops
+        r"\b\d+-op\b",                                 # 12-op
+        r"\bGP\b", r"\bFFS\b", r"\bPedo\b", r"\bOrtho\b",
+        r"\bPractice\s*$",                             # ends with "Practice"
+        r"\bPractice\s+Opportunity\b",
+        r"\bBuyer\s+Opportunity\b",
+        r"\bTurnkey\b", r"\bStartup\b", r"\bMerger\b",
+        r"\bReduction\b|\bREDUCED\b",
+        r"\bMulti[-\s]?Location\b",
+        r"\b\d+\s*(-\s*)?(min|minutes?|hour|hours?|hr|hrs)\s+(from|out)\b",
+        r"\b\d+hr\s+from\b",
+        r"\b\d+(st|nd|rd|th)?\s+Gen\b",                # 3rd Gen
+        r"\b(North|South|East|West|NE|NW|SE|SW|Downtown|Suburban|Suburb|Rural|Greater|Metro)\b",
+        r"\bCounty\b", r"\bArea\b",
+        r"\bsqft\b",
+    ]
+    for pat in BROKER_JARGON:
+        if re.search(pat, n, re.I):
+            return True
+
+    alpha_words = [w for w in re.findall(r"[A-Za-z]{3,}", n)]
     return len(alpha_words) < 2
 
 

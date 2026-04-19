@@ -163,14 +163,17 @@ function SectionLabel({ children, count, right }) {
   );
 }
 
-// Fact — label+value pair for detail views
-function Fact({ label, value, confidence, mono = false, accent, hint }) {
+// Fact — label+value pair for detail views.
+// fallbackUrl + fallbackLabel let "unknown" fields render a clickable
+// look-this-up link instead of flat gray text (e.g. state license board).
+function Fact({ label, value, confidence, mono = false, accent, hint, fallbackUrl, fallbackLabel = 'Look up →' }) {
   const color = accent === 'sage' ? 'var(--sage)' :
                 accent === 'rose' ? 'var(--rose)' :
                 accent === 'clay' ? 'var(--clay)' :
                 accent === 'gold' ? 'var(--gold)' :
                 'var(--ink)';
   const empty = value == null || value === '' || value === '—';
+  const hasFallback = empty && fallbackUrl;
   return (
     <div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 3 }}>
@@ -180,12 +183,21 @@ function Fact({ label, value, confidence, mono = false, accent, hint }) {
         {hint && <InfoDot term={hint} />}
         {confidence && <Confidence level={confidence} />}
       </div>
-      <div style={{
-        fontSize: 14, fontWeight: 500,
-        color: empty ? 'var(--ink-4)' : color,
-        fontFamily: mono ? 'JetBrains Mono' : 'Inter',
-        fontStyle: empty ? 'italic' : 'normal',
-      }}>{empty ? 'not yet known' : value}</div>
+      {hasFallback ? (
+        <a href={fallbackUrl} target="_blank" rel="noopener" style={{
+          display: 'inline-block', fontSize: 12, color: 'var(--moss)',
+          fontFamily: 'Inter', fontWeight: 500,
+          borderBottom: '1px dashed var(--moss)', paddingBottom: 1,
+          textDecoration: 'none',
+        }}>{fallbackLabel}</a>
+      ) : (
+        <div style={{
+          fontSize: 14, fontWeight: 500,
+          color: empty ? 'var(--ink-4)' : color,
+          fontFamily: mono ? 'JetBrains Mono' : 'Inter',
+          fontStyle: empty ? 'italic' : 'normal',
+        }}>{empty ? 'not yet known' : value}</div>
+      )}
     </div>
   );
 }

@@ -169,29 +169,37 @@ def enrich(listing: dict, ctx: dict) -> None:
     cache_key = website or name
     hit = cache.get(cache_key) or {}
     age = now - hit.get("fetched_at", 0)
-    fresh = hit and age < STALE_AFTER
+    fresh = bool(hit) and age < STALE_AFTER
 
-    contact: dict = {}
+    # Phone and email are filled independently so that a scrape which yields
+    # only an email (common on modern broker sites where the phone is in a
+    # tel: link or rendered via JS) still gets a phone from the inline broker
+    # record or FALLBACK_CONTACTS.
+    scraped: dict = {}
     if fresh:
-        contact = {"phone": hit.get("phone"), "email": hit.get("email")}
-        conf = "verified" if hit.get("source_url") else "inferred"
+        scraped = {"phone": hit.get("phone"), "email": hit.get("email")}
     elif ctx.get("online", True):
-        contact = _fetch_contact_from_web(website)
-        if contact:
-            cache[cache_key] = {**contact, "fetched_at": now}
+        scraped = _fetch_contact_from_web(website)
+        if scraped:
+            cache[cache_key] = {**scraped, "fetched_at": now}
             _cache_save(cache)
-            conf = "verified"
-        else:
-            fb = FALLBACK_CONTACTS.get(name) or {}
-            contact = {"phone": fb.get("phone"), "email": fb.get("email")}
-            conf = "inferred" if (contact.get("phone") or contact.get("email")) else "unknown"
-    else:
-        # offline: use fallback only
-        fb = FALLBACK_CONTACTS.get(name) or {}
-        contact = {"phone": fb.get("phone"), "email": fb.get("email")}
-        conf = "inferred" if (contact.get("phone") or contact.get("email")) else "unknown"
 
-    if contact.get("phone"):
-        e["brokerPhone"] = {"value": contact["phone"], "conf": conf}
-    if contact.get("email"):
-        e["brokerEmail"] = {"value": contact["email"], "conf": conf}
+    fb = FALLBACK_CONTACTS.get(name) or {}
+    inline_phone = broker.get("phone")
+    inline_email = broker.get("email")
+
+    # Phone: scrape (verified) → inline broker record → fallback table
+    if scraped.get("phone"):
+        e["brokerPhone"] = {"value": scraped["phone"], "conf": "verified"}
+    elif inline_phone:
+        e["brokerPhone"] = {"value": inline_phone, "conf": "inferred"}
+    elif fb.get("phone"):
+        e["brokerPhone"] = {"value": fb["phone"], "conf": "inferred"}
+
+    # Email: scrape (verified) → inline broker record → fallback table
+    if scraped.get("email"):
+        e["brokerEmail"] = {"value": scraped["email"], "conf": "verified"}
+    elif inline_email:
+        e["brokerEmail"] = {"value": inline_email, "conf": "inferred"}
+    elif fb.get("email"):
+        e["brokerEmail"] = {"value": fb["email"], "conf": "inferred"}
