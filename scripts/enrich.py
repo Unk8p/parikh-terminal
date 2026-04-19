@@ -58,6 +58,7 @@ ENRICHERS = {
 # Field → default conf seed. Mirrors src/enrichment.jsx hydrateListing().
 ENRICH_SCHEMA = [
     "practiceUrl",
+    "brandName",
     "ownerName",
     "licenseNumber",
     "yearsLicensed",

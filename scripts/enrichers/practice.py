@@ -201,9 +201,142 @@ def _find_practice_url(name: str, city: str, state: str) -> Optional[str]:
     return None
 
 
-def _scrape_procedures(practice_url: str) -> Optional[list[str]]:
-    if requests is None or BeautifulSoup is None or not practice_url:
+# Separator patterns we routinely see in dentist-website <title> tags —
+# the first chunk before any of these is almost always the brand.
+_TITLE_SUFFIX_SPLITS = re.compile(r"\s*(?:\||—|–|-|:|·|•)\s+")
+
+# Generic patterns that look like brand candidates but are really descriptors.
+# A candidate that STARTS WITH or IS DOMINATED BY any of these is rejected.
+_GENERIC_LEADERS = re.compile(
+    r"^(home|welcome(?:\s+to)?|official\s+site|dentist(?:ry)?\s+in|"
+    r"dental\s+care\s+in|best\s+dentist|top\s+dentist|affordable\s+dentist|"
+    r"your\s+dentist|trusted\s+dentist|quality\s+dental)\b",
+    re.I,
+)
+# Bare service/location labels that masquerade as brands. Only triggers
+# on short (≤2 word) candidates because 3+ word patterns are almost always
+# real brands ("Smile Dental Care", "Aspen Dental Group", "Rocky Mountain
+# Dental" etc.) even when they start with generic modifiers.
+_GENERIC_MODIFIERS = {
+    "family", "cosmetic", "general", "pediatric", "emergency",
+    "comprehensive", "modern", "advanced", "affordable",
+}
+_DENTAL_NOUNS = re.compile(
+    r"\b(dentist|dentistry|dental|dds|dmd)\b", re.I,
+)
+
+
+def _clean_brand_candidate(s: str) -> Optional[str]:
+    if not s:
         return None
+    s = re.sub(r"\s+", " ", s).strip(" -|–—:·•,.")
+    if not s or len(s) < 3 or len(s) > 80:
+        return None
+    # Reject candidates that start with a generic phrase like "Welcome to..."
+    # or "Dentist in..." — these leak through the title splitter.
+    if _GENERIC_LEADERS.search(s):
+        return None
+    # Reject bare descriptors like "Family Dentistry", "Dental Care", or
+    # "Denver Dentist" that carry no proper-noun brand. Only triggers on
+    # ≤2 word candidates — 3+ word patterns are almost always brands even
+    # when they contain generic modifiers.
+    words = re.findall(r"[A-Za-z]+", s)
+    if len(words) <= 2 and _DENTAL_NOUNS.search(s):
+        # It's a 1–2 word string that contains a dental noun. If the only
+        # other word (if any) is a generic modifier or a location/adjective,
+        # it's a descriptor, not a brand.
+        non_dental = [
+            w for w in words
+            if not _DENTAL_NOUNS.fullmatch(w)
+        ]
+        if not non_dental or non_dental[0].lower() in _GENERIC_MODIFIERS:
+            return None
+        # Two-word "<X> Dentist" patterns are ambiguous — could be "Smith
+        # Dentist" (brand) or "Denver Dentist" (location). We can't tell
+        # without a city list, so err on the side of rejection; og:site_name
+        # / JSON-LD usually provide the real brand for legitimate practices.
+        if s.lower().endswith(" dentist") or s.lower().endswith(" dentistry"):
+            return None
+    # Must contain at least one alphabetic word of length >= 3
+    if not re.search(r"[A-Za-z]{3,}", s):
+        return None
+    return s
+
+
+def _extract_brand(soup) -> Optional[str]:
+    """Extract a canonical brand name from a practice homepage.
+
+    Order of preference: schema.org JSON-LD (most canonical), then og:site_name,
+    then the <title> with common suffixes stripped. Returns the shortest
+    plausible candidate so we pick 'Smile Dental Care' over
+    'Smile Dental Care | Denver Dentist - Family Dentistry'.
+    """
+    candidates: list[str] = []
+
+    # 1) JSON-LD: Dentist / LocalBusiness / DentalClinic / MedicalBusiness
+    for tag in soup.find_all("script", type="application/ld+json"):
+        raw = tag.string or tag.get_text() or ""
+        if not raw.strip():
+            continue
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        # JSON-LD can be a single object, a list, or an @graph
+        nodes = []
+        if isinstance(data, list):
+            nodes = data
+        elif isinstance(data, dict):
+            nodes = data.get("@graph") if isinstance(data.get("@graph"), list) else [data]
+        for node in nodes or []:
+            if not isinstance(node, dict):
+                continue
+            types = node.get("@type") or ""
+            if isinstance(types, list):
+                types = " ".join(str(t) for t in types)
+            if not re.search(r"Dentist|DentalClinic|LocalBusiness|MedicalBusiness|Organization", str(types), re.I):
+                continue
+            nm = node.get("name")
+            if isinstance(nm, str):
+                cand = _clean_brand_candidate(nm)
+                if cand:
+                    candidates.append(cand)
+
+    # 2) og:site_name — usually the cleanest brand
+    og = soup.find("meta", attrs={"property": "og:site_name"})
+    if og and og.get("content"):
+        cand = _clean_brand_candidate(og["content"])
+        if cand:
+            candidates.append(cand)
+
+    # 3) <title> — the FIRST chunk before any separator is the brand by
+    #    convention on dentist websites ("Smile Dental Care | Denver Dentist
+    #    - Family Dentistry"). If the first chunk is generic (e.g. "Home"),
+    #    try subsequent chunks.
+    title_el = soup.find("title")
+    if title_el:
+        title = title_el.get_text(" ", strip=True)
+        parts = [p for p in _TITLE_SUFFIX_SPLITS.split(title) if p and p.strip()]
+        for p in parts:
+            cand = _clean_brand_candidate(p)
+            if cand:
+                candidates.append(cand)
+                break  # first non-generic chunk wins
+
+    if not candidates:
+        return None
+    # JSON-LD and og:site_name are more canonical than <title>, so the
+    # extraction order above matters: we return the first found.
+    return candidates[0]
+
+
+def _scrape_practice_page(practice_url: str) -> dict:
+    """Fetch the practice homepage once and extract both the procedures list
+    and a canonical brand name. Returns {'procedures': [...]|None, 'brand': str|None}.
+    """
+    out: dict = {"procedures": None, "brand": None}
+    if requests is None or BeautifulSoup is None or not practice_url:
+        return out
     try:
         r = requests.get(
             practice_url,
@@ -211,15 +344,23 @@ def _scrape_procedures(practice_url: str) -> Optional[list[str]]:
             headers={"User-Agent": "parikh-terminal-enricher/1.0 (asparikh08@gmail.com)"},
         )
         if r.status_code != 200:
-            return None
-        text = BeautifulSoup(r.text, "lxml").get_text(" ").lower()
+            return out
+        soup = BeautifulSoup(r.text, "lxml")
+        text = soup.get_text(" ").lower()
         found: set[str] = set()
         for kw, label in PROCEDURE_KEYWORDS:
             if kw in text:
                 found.add(label)
-        return sorted(found) if found else None
+        out["procedures"] = sorted(found) if found else None
+        out["brand"] = _extract_brand(soup)
     except Exception:
-        return None
+        pass
+    return out
+
+
+def _scrape_procedures(practice_url: str) -> Optional[list[str]]:
+    """Backward-compatible wrapper; prefer _scrape_practice_page for new code."""
+    return _scrape_practice_page(practice_url).get("procedures")
 
 
 # --------------------------------------------------------------------------
@@ -270,8 +411,15 @@ def enrich(listing: dict, ctx: dict) -> None:
     if url:
         e["practiceUrl"] = {"value": url, "conf": "inferred"}
 
-    # --- proceduresOffered: scrape practice page
+    # --- proceduresOffered + brandName: single fetch of the practice homepage
     if url:
-        procs = _scrape_procedures(url)
+        page = _scrape_practice_page(url)
+        procs = page.get("procedures")
+        brand = page.get("brand")
         if procs:
             e["proceduresOffered"] = {"value": procs, "conf": "inferred"}
+        if brand:
+            # brandName lets reputation.py query Google Places with the real
+            # clinic name ('Smile Dental Care') instead of the broker title
+            # ('CO26-102 GP'), which is why Places was finding 0 matches.
+            e["brandName"] = {"value": brand, "conf": "inferred"}

@@ -150,16 +150,25 @@ def _google_news(name: str, city: str) -> Optional[list[dict]]:
 # --------------------------------------------------------------------------
 def enrich(listing: dict, ctx: dict) -> None:
     e = listing["enrich"]
-    name = listing.get("name") or ""
+    raw_name = listing.get("name") or ""
     city = listing.get("city") or ""
 
-    if _looks_anonymized(name):
-        return  # skip: anonymized listings have nothing to match against
+    # practice.py runs first and may have discovered the real clinic name via
+    # the practice website (<title>, og:site_name, schema.org JSON-LD). When
+    # that's available, use it instead of the broker's anonymized title —
+    # that's how we unlock Places matches for listings like 'CO26-102 GP'.
+    brand = (e.get("brandName") or {}).get("value")
+    query_name = brand or raw_name
+
+    # Only skip when we still have no usable name. A discovered brand means
+    # the practice website was found and parsed, so the name is real.
+    if not brand and _looks_anonymized(raw_name):
+        return
 
     if not ctx.get("online", True):
         return
 
-    rating = _google_rating(name, city, listing.get("market", "").split(",")[-1].strip())
+    rating = _google_rating(query_name, city, listing.get("market", "").split(",")[-1].strip())
     if rating and rating.get("stars") is not None:
         # Attach a Maps deep-link so the UI can render the rating as a clickable
         # pill that jumps straight to the verified Google Business Profile.
@@ -169,12 +178,12 @@ def enrich(listing: dict, ctx: dict) -> None:
         e["googleRating"] = {"value": rating, "conf": "verified"}
 
     cache = _cache_load(NEWS_CACHE)
-    key = f"{name}|{city}"
+    key = f"{query_name}|{city}"
     hit = cache.get(key) or {}
     if hit and time.time() - hit.get("fetched_at", 0) < STALE_AFTER:
         headlines = hit.get("value")
     else:
-        headlines = _google_news(name, city)
+        headlines = _google_news(query_name, city)
         cache[key] = {"value": headlines, "fetched_at": time.time()}
         _cache_save(NEWS_CACHE, cache)
     if headlines:
