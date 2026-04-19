@@ -1,0 +1,3404 @@
+// Auto-generated — embedded listings data
+window.PARIKH_DATA = {
+  "listings": [
+    {
+      "id": 1,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "CO26-102 GP",
+      "specialty": "General",
+      "collections": 1500000,
+      "collectionsRaw": "$1,500,000",
+      "ops": 6,
+      "sqft": 2500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "6 ops, strong collections",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 2,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "COD154 NE North Field GP",
+      "specialty": "General",
+      "collections": 486903,
+      "collectionsRaw": "$486,903",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "Affordable solo-owner area",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 3,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "SW Denver GP (5 ops)",
+      "specialty": "General",
+      "collections": 868950,
+      "collectionsRaw": "$868,950",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 92,
+      "notes": "Mid-range, ideal size",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 4,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "SW Denver GP (7 ops)",
+      "specialty": "General",
+      "collections": 850000,
+      "collectionsRaw": "$850,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 95,
+      "notes": "BEST FIT — 7 ops, ideal collections",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 5,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "Denver CO3944",
+      "specialty": "General",
+      "collections": 600000,
+      "collectionsRaw": "$600,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Solid 4-op GP",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 6,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "SE Denver GP",
+      "specialty": "General",
+      "collections": 502000,
+      "collectionsRaw": "$502,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "6 ops at $502K — value play",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 7,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "Denver GP $463K",
+      "specialty": "General",
+      "collections": 463000,
+      "collectionsRaw": "$463,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 8,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "SW Denver PRICE REDUCED",
+      "specialty": "General",
+      "collections": 160000,
+      "collectionsRaw": "$160,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 78,
+      "notes": "Chart sale or startup",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": [
+        "CHART_SALE"
+      ]
+    },
+    {
+      "id": 9,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "Multi-Location $1.857M",
+      "specialty": "General",
+      "collections": 1857000,
+      "collectionsRaw": "$1,857,000",
+      "ops": 12,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 70,
+      "notes": "Complex multi-location",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": [
+        "TOO_LARGE",
+        "LOW_SCORE"
+      ]
+    },
+    {
+      "id": 10,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "CO25-125",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 4,
+      "sqft": 2000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 11,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "CO25-116",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 4,
+      "sqft": 2500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 12,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "CO25-104",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": null,
+      "sqft": 3000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 13,
+      "market": "Denver, CO",
+      "city": "Denver",
+      "name": "Colorado Practice $2.7M",
+      "specialty": "General",
+      "collections": 2700000,
+      "collectionsRaw": "$2,700,000",
+      "ops": 7,
+      "sqft": 2400,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 75,
+      "notes": "Premium pricing",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": [
+        "OVER_SBA_CAP"
+      ]
+    },
+    {
+      "id": 14,
+      "market": "Denver, CO",
+      "city": "Golden",
+      "name": "Golden GP",
+      "specialty": "General",
+      "collections": 1320000,
+      "collectionsRaw": "$1,320,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "7 ops, foothills suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 15,
+      "market": "Denver, CO",
+      "city": "Lakewood",
+      "name": "Lakewood GP",
+      "specialty": "General",
+      "collections": 935000,
+      "collectionsRaw": "$935,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "5 ops, west Denver suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 16,
+      "market": "Denver, CO",
+      "city": "Wheat Ridge",
+      "name": "Wheat Ridge GP",
+      "specialty": "General",
+      "collections": 764717,
+      "collectionsRaw": "$764,717",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "5 ops, established area",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 17,
+      "market": "Denver, CO",
+      "city": "Thornton",
+      "name": "Thornton GP",
+      "specialty": "General",
+      "collections": 846000,
+      "collectionsRaw": "$846,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "6 ops, north Denver suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 18,
+      "market": "Denver, CO",
+      "city": "Arvada",
+      "name": "Arvada GP",
+      "specialty": "General",
+      "collections": 463000,
+      "collectionsRaw": "$463,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "NW suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 19,
+      "market": "Denver, CO",
+      "city": "Littleton",
+      "name": "Littleton CO4615",
+      "specialty": "General",
+      "collections": 660000,
+      "collectionsRaw": "$660,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 86,
+      "notes": "4 ops, south suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 20,
+      "market": "Denver, CO",
+      "city": "Littleton",
+      "name": "Littleton $250K",
+      "specialty": "General",
+      "collections": 250000,
+      "collectionsRaw": "$250,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 75,
+      "notes": "Small/chart sale",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 21,
+      "market": "Denver, CO",
+      "city": "Centennial",
+      "name": "Centennial GP",
+      "specialty": "General",
+      "collections": 287583,
+      "collectionsRaw": "$287,583",
+      "ops": 4,
+      "sqft": 1578,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 82,
+      "notes": "4 ops, low overhead entry — FFS transition candidate",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 22,
+      "market": "Denver, CO",
+      "city": "Lafayette",
+      "name": "Lafayette GP",
+      "specialty": "General",
+      "collections": 528458,
+      "collectionsRaw": "$528,458",
+      "ops": 4,
+      "sqft": 3214,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "4 ops, large space for expansion",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 23,
+      "market": "Denver, CO",
+      "city": "Lafayette/Broomfield",
+      "name": "Broomfield $1M GP",
+      "specialty": "General",
+      "collections": 1000000,
+      "collectionsRaw": "$1,000,000",
+      "ops": 5,
+      "sqft": 2200,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "Beautiful practice, ideal suburb",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 24,
+      "market": "Denver, CO",
+      "city": "Longmont",
+      "name": "Longmont GP",
+      "specialty": "General",
+      "collections": 380000,
+      "collectionsRaw": "$380,000",
+      "ops": 3,
+      "sqft": 1200,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 80,
+      "notes": "Small town 45 min from Denver — FFS-friendly",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 25,
+      "market": "Denver, CO",
+      "city": "Erie",
+      "name": "Erie Established GP",
+      "specialty": "General",
+      "collections": 324000,
+      "collectionsRaw": "$324,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 78,
+      "notes": "Growing suburb, FFS startup potential",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 26,
+      "market": "Denver, CO",
+      "city": "Boulder",
+      "name": "Boulder $275K",
+      "specialty": "General",
+      "collections": 275000,
+      "collectionsRaw": "$275,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 75,
+      "notes": "College town",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 27,
+      "market": "Denver, CO",
+      "city": "Boulder",
+      "name": "Boulder $585K",
+      "specialty": "General",
+      "collections": 585000,
+      "collectionsRaw": "$585,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "6 ops",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 28,
+      "market": "Denver, CO",
+      "city": "Colorado Springs",
+      "name": "Co Springs $1.5M",
+      "specialty": "General",
+      "collections": 1500000,
+      "collectionsRaw": "$1,500,000",
+      "ops": 5,
+      "sqft": 2000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "~1 hr from Denver, 5 ops",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 29,
+      "market": "Denver, CO",
+      "city": "Colorado Springs",
+      "name": "Co Springs $500K",
+      "specialty": "General",
+      "collections": 500000,
+      "collectionsRaw": "$500,000",
+      "ops": 3,
+      "sqft": 2000,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 80,
+      "notes": "3 ops, affordable",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 30,
+      "market": "Denver, CO",
+      "city": "Colorado Springs",
+      "name": "Co Springs $900K",
+      "specialty": "General",
+      "collections": 900000,
+      "collectionsRaw": "$900,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Metro area, 5 ops",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 31,
+      "market": "Denver, CO",
+      "city": "Colorado Springs",
+      "name": "Co Springs + RE",
+      "specialty": "General",
+      "collections": 633000,
+      "collectionsRaw": "$633,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 83,
+      "notes": "Includes real estate",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 32,
+      "market": "Denver, CO",
+      "city": "Pueblo",
+      "name": "Pueblo CO4590",
+      "specialty": "General",
+      "collections": 770000,
+      "collectionsRaw": "$770,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 78,
+      "notes": "Rural, FFS-friendly, ~2hr from Denver",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 33,
+      "market": "Denver, CO",
+      "city": "Pueblo",
+      "name": "Pueblo Busy Street GP",
+      "specialty": "General",
+      "collections": 700000,
+      "collectionsRaw": "$700,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 80,
+      "notes": "5 ops on busy street, rural FFS",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 34,
+      "market": "Denver, CO",
+      "city": "Fort Collins",
+      "name": "Ft Collins GP",
+      "specialty": "General",
+      "collections": 620000,
+      "collectionsRaw": "$620,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 84,
+      "notes": "College town, ~1hr from Denver",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 35,
+      "market": "Denver, CO",
+      "city": "Ft. Morgan",
+      "name": "Ft Morgan GP",
+      "specialty": "General",
+      "collections": 477000,
+      "collectionsRaw": "$477,000",
+      "ops": 3,
+      "sqft": 1000,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 78,
+      "notes": "Rural 80 min from Denver — prime FFS territory",
+      "fellowship": {
+        "fellowship": "Colorado/BDC",
+        "rank": 1,
+        "city": "Aurora/Denver CO",
+        "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+      },
+      "flags": []
+    },
+    {
+      "id": 36,
+      "market": "Orlando, FL",
+      "city": "Maitland",
+      "name": "Maitland GP",
+      "specialty": "General",
+      "collections": 1000000,
+      "collectionsRaw": "$1,000,000",
+      "ops": 4,
+      "sqft": 1200,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 93,
+      "notes": "TOP PICK — Orlando metro, $1M",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 37,
+      "market": "Orlando, FL",
+      "city": "Doctor Phillips",
+      "name": "Doctor Phillips GP",
+      "specialty": "General",
+      "collections": 820000,
+      "collectionsRaw": "$820,000",
+      "ops": 7,
+      "sqft": 2320,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 95,
+      "notes": "TOP PICK — 7 ops, affluent area",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 38,
+      "market": "Orlando, FL",
+      "city": "Oviedo",
+      "name": "Oviedo Practice",
+      "specialty": "General",
+      "collections": 1000000,
+      "collectionsRaw": "$1,000,000",
+      "ops": 3,
+      "sqft": 1200,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "East Orlando suburb",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 39,
+      "market": "Orlando, FL",
+      "city": "Winter Springs",
+      "name": "Winter Springs GP",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 6,
+      "sqft": 2500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "6 ops suburban",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 40,
+      "market": "Orlando, FL",
+      "city": "Kissimmee",
+      "name": "Kissimmee Practice",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Moderate",
+      "ops": 5,
+      "sqft": 1778,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Near hospital, CBCT equipped",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 41,
+      "market": "Orlando, FL",
+      "city": "Ocala",
+      "name": "Ocala GP $660K",
+      "specialty": "General",
+      "collections": 660000,
+      "collectionsRaw": "$660,000",
+      "ops": 8,
+      "sqft": 3686,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 85,
+      "notes": "8 ops, ~1hr from Orlando, rural-ish",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 42,
+      "market": "Orlando, FL",
+      "city": "Ocala",
+      "name": "Ocala Startup Corridor",
+      "specialty": "General",
+      "collections": 389000,
+      "collectionsRaw": "$389,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 80,
+      "notes": "FFS startup-ready, fastest growing corridor",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 43,
+      "market": "Orlando, FL",
+      "city": "The Villages",
+      "name": "The Villages GP",
+      "specialty": "General",
+      "collections": 500000,
+      "collectionsRaw": "$500,000",
+      "ops": 5,
+      "sqft": 2680,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 92,
+      "notes": "TOP FFS — massive retiree FFS market!",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 44,
+      "market": "Orlando, FL",
+      "city": "South Daytona",
+      "name": "South Daytona GP",
+      "specialty": "General",
+      "collections": 254000,
+      "collectionsRaw": "$254,000",
+      "ops": 4,
+      "sqft": 1350,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 78,
+      "notes": "Affordable entry, beach community",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 45,
+      "market": "Orlando, FL",
+      "city": "Crystal River",
+      "name": "Crystal River GP",
+      "specialty": "General",
+      "collections": 1929000,
+      "collectionsRaw": "$1,929,000",
+      "ops": 8,
+      "sqft": 4000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Nature Coast, ~1.5hr from Orlando",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 46,
+      "market": "Orlando, FL",
+      "city": "Delray Beach",
+      "name": "Delray Beach FFS",
+      "specialty": "General",
+      "collections": 1400000,
+      "collectionsRaw": "$1,400,000",
+      "ops": null,
+      "sqft": null,
+      "source": "BizBuySell",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 80,
+      "notes": "FFS Only practice + real estate",
+      "fellowship": {
+        "fellowship": "Nemours Orlando",
+        "rank": 3,
+        "city": "Orlando FL",
+        "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+      },
+      "flags": []
+    },
+    {
+      "id": 47,
+      "market": "Nashville, TN",
+      "city": "Nashville",
+      "name": "North Suburb GP",
+      "specialty": "General",
+      "collections": 700000,
+      "collectionsRaw": "$700,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 92,
+      "notes": "TOP PICK — solid suburban GP",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 48,
+      "market": "Nashville, TN",
+      "city": "Nashville",
+      "name": "Nashville GP $440K",
+      "specialty": "General",
+      "collections": 440000,
+      "collectionsRaw": "$440,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "4 ops, standalone RE available",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 49,
+      "market": "Nashville, TN",
+      "city": "Nashville",
+      "name": "Nashville GP $350K",
+      "specialty": "General",
+      "collections": 350000,
+      "collectionsRaw": "$350,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Entry-level",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 50,
+      "market": "Nashville, TN",
+      "city": "Nashville",
+      "name": "Nashville GP 5ops",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 5,
+      "sqft": 2770,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "5 ops",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 51,
+      "market": "Nashville, TN",
+      "city": "Nashville",
+      "name": "Boutique 40+ yr Practice",
+      "specialty": "General",
+      "collections": 900000,
+      "collectionsRaw": "~$900,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "Desirable neighborhood, legacy",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 52,
+      "market": "Nashville, TN",
+      "city": "Franklin",
+      "name": "Franklin GP",
+      "specialty": "General",
+      "collections": 240000,
+      "collectionsRaw": "$240,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 85,
+      "notes": "Affluent suburb — FFS ideal! Low entry",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 53,
+      "market": "Nashville, TN",
+      "city": "Clarksville",
+      "name": "Clarksville $1.285M",
+      "specialty": "General",
+      "collections": 1285000,
+      "collectionsRaw": "$1,285,000",
+      "ops": 8,
+      "sqft": 3600,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Military town, 8 ops, growing fast",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 54,
+      "market": "Nashville, TN",
+      "city": "Clarksville",
+      "name": "Clarksville $1.2M",
+      "specialty": "General",
+      "collections": 1200000,
+      "collectionsRaw": "$1,200,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "7 ops",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 55,
+      "market": "Nashville, TN",
+      "city": "Columbia",
+      "name": "Columbia GP",
+      "specialty": "General",
+      "collections": 360000,
+      "collectionsRaw": "$360,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 83,
+      "notes": "Rural ~45 min from Nashville — FFS transition",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 56,
+      "market": "Nashville, TN",
+      "city": "Goodlettsville",
+      "name": "Goodlettsville GP",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "North Nashville suburb",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 57,
+      "market": "Nashville, TN",
+      "city": "SE Nashville",
+      "name": "SE Nashville Digital GP",
+      "specialty": "General",
+      "collections": 841000,
+      "collectionsRaw": "$841,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Fully digital, 6 ops, strip mall",
+      "fellowship": {
+        "fellowship": "Vanderbilt",
+        "rank": 5,
+        "city": "Nashville TN",
+        "notes": "Shreya's #5 — Vanderbilt"
+      },
+      "flags": []
+    },
+    {
+      "id": 58,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "Downtown Portland GP",
+      "specialty": "General",
+      "collections": 880000,
+      "collectionsRaw": "$880,000",
+      "ops": 4,
+      "sqft": 2100,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 92,
+      "notes": "TOP PICK — downtown, strong collections",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 59,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "3rd Gen Downtown GP",
+      "specialty": "General",
+      "collections": 600000,
+      "collectionsRaw": "$600,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 93,
+      "notes": "Legacy practice, 3 generations of goodwill",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 60,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "SE Portland Suburb",
+      "specialty": "General",
+      "collections": 480000,
+      "collectionsRaw": "$480,000",
+      "ops": 4,
+      "sqft": 2554,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Affordable suburban",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 61,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "Large SE Portland + Building",
+      "specialty": "General",
+      "collections": 1500000,
+      "collectionsRaw": "$1,500,000",
+      "ops": 4,
+      "sqft": 3000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Includes building",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 62,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "Portland OR4659",
+      "specialty": "General",
+      "collections": 710000,
+      "collectionsRaw": "$710,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 63,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "Suburban Portland",
+      "specialty": "General",
+      "collections": 1120000,
+      "collectionsRaw": "$1,120,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 64,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "Tigard Super Deal",
+      "specialty": "General",
+      "collections": 750000,
+      "collectionsRaw": "$750,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Asking only $300K!",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 65,
+      "market": "Portland, OR",
+      "city": "Portland",
+      "name": "East Portland Suburb",
+      "specialty": "General",
+      "collections": 235000,
+      "collectionsRaw": "$235,000",
+      "ops": 5,
+      "sqft": 2606,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 78,
+      "notes": "Low collections, 5 ops — FFS growth",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 66,
+      "market": "Portland, OR",
+      "city": "Hillsboro",
+      "name": "Hillsboro GP",
+      "specialty": "General",
+      "collections": 1300000,
+      "collectionsRaw": "$1,300,000",
+      "ops": 4,
+      "sqft": 1500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "Tech suburb, 4 ops",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 67,
+      "market": "Portland, OR",
+      "city": "Gresham",
+      "name": "Gresham GP",
+      "specialty": "General",
+      "collections": 1637000,
+      "collectionsRaw": "$1,637,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "6 ops, east Portland suburb",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 68,
+      "market": "Portland, OR",
+      "city": "Beaverton",
+      "name": "Beaverton Merger GP",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 3,
+      "sqft": 1150,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "Merger opportunity",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 69,
+      "market": "Portland, OR",
+      "city": "McMinnville",
+      "name": "McMinnville GP",
+      "specialty": "General",
+      "collections": 600000,
+      "collectionsRaw": "$600,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 88,
+      "notes": "Wine country ~45min from Portland — FFS ideal!",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 70,
+      "market": "Portland, OR",
+      "city": "Bend",
+      "name": "Bend GP (2 listings)",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 5,
+      "sqft": 1750,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 90,
+      "notes": "High-income outdoor town — premium FFS market",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 71,
+      "market": "Portland, OR",
+      "city": "Eugene",
+      "name": "Eugene GP",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 82,
+      "notes": "College town, ~2hr from Portland",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 72,
+      "market": "Portland, OR",
+      "city": "Lake Oswego",
+      "name": "Lake Oswego GP",
+      "specialty": "General",
+      "collections": 800000,
+      "collectionsRaw": "$800,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "Affluent Portland suburb",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 73,
+      "market": "Portland, OR",
+      "city": "Florence",
+      "name": "Florence Denture/Implant",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 88,
+      "notes": "Coast town — perfect for your implant skills!",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 74,
+      "market": "Portland, OR",
+      "city": "Astoria",
+      "name": "Astoria GP",
+      "specialty": "General",
+      "collections": 220000,
+      "collectionsRaw": "$220,000",
+      "ops": 3,
+      "sqft": 1400,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 75,
+      "notes": "Coastal small town, low entry",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Portland OR",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 75,
+      "market": "NC Triangle",
+      "city": "Cary",
+      "name": "Cary Modern Practice",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Undisclosed",
+      "ops": 5,
+      "sqft": null,
+      "source": "1stMed/Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 94,
+      "notes": "TOP PICK — 5 ops, space for 6th, modern, Shreya's commute",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 76,
+      "market": "NC Triangle",
+      "city": "Raleigh",
+      "name": "Greater Raleigh Area GP",
+      "specialty": "General",
+      "collections": 1400000,
+      "collectionsRaw": "$1,400,000",
+      "ops": 6,
+      "sqft": 5000,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "6 ops, 5000 sqft, prime location",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 77,
+      "market": "NC Triangle",
+      "city": "Raleigh",
+      "name": "North Raleigh Turnkey GP",
+      "specialty": "General",
+      "collections": 650000,
+      "collectionsRaw": "$650,000",
+      "ops": 6,
+      "sqft": 3300,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 92,
+      "notes": "TOP PICK — turnkey, 6 ops, expand to 8",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 78,
+      "market": "NC Triangle",
+      "city": "Raleigh",
+      "name": "Raleigh $2M GP",
+      "specialty": "General",
+      "collections": 2000000,
+      "collectionsRaw": "$2,000,000",
+      "ops": 8,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "High-volume, 62 new pts/mo",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 79,
+      "market": "NC Triangle",
+      "city": "Raleigh",
+      "name": "North Raleigh GP $700K",
+      "specialty": "General",
+      "collections": 700000,
+      "collectionsRaw": "$700,000",
+      "ops": 4,
+      "sqft": 1469,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "4 ops",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 80,
+      "market": "NC Triangle",
+      "city": "Raleigh/Apex",
+      "name": "Raleigh & Apex Practice",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Apex: fastest growing town in NC, FFS ideal",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 81,
+      "market": "NC Triangle",
+      "city": "Apex/Holly Springs",
+      "name": "Apex Area Practice",
+      "specialty": "General",
+      "collections": 600000,
+      "collectionsRaw": "$600,000+",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 90,
+      "notes": "One of NC's fastest growing towns, 3-day week — FFS gold",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 82,
+      "market": "NC Triangle",
+      "city": "Durham",
+      "name": "Durham GP 3021",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 5,
+      "sqft": 1600,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "5 ops",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 83,
+      "market": "NC Triangle",
+      "city": "Durham",
+      "name": "Durham Digital Modern GP",
+      "specialty": "General",
+      "collections": 651000,
+      "collectionsRaw": "$651,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 92,
+      "notes": "20+ new pts/mo, fully digital, 6 ops",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 84,
+      "market": "NC Triangle",
+      "city": "Wake County",
+      "name": "Wake County $1800sqft",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": null,
+      "sqft": 1800,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 85,
+      "market": "NC Triangle",
+      "city": "Wake County",
+      "name": "Raleigh 12-op Practice",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 12,
+      "sqft": 5600,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 70,
+      "notes": "Very large",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": [
+        "TOO_LARGE",
+        "LOW_SCORE"
+      ]
+    },
+    {
+      "id": 86,
+      "market": "NC Triangle",
+      "city": "Triangle",
+      "name": "The Triangle Practice",
+      "specialty": "General",
+      "collections": 2400000,
+      "collectionsRaw": "$2,400,000",
+      "ops": 8,
+      "sqft": 4700,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "8 ops, 4700 sqft — large",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 87,
+      "market": "NC Triangle",
+      "city": "1hr from Raleigh",
+      "name": "Rural GP 1hr from Raleigh",
+      "specialty": "General",
+      "collections": 681000,
+      "collectionsRaw": "$681,000",
+      "ops": 3,
+      "sqft": 1600,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 85,
+      "notes": "Rural FFS territory, low competition",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 88,
+      "market": "NC Triangle",
+      "city": "Morganton",
+      "name": "Morganton GP",
+      "specialty": "General",
+      "collections": 665000,
+      "collectionsRaw": "$665,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 82,
+      "notes": "Mountain town, ~2.5hr from Triangle",
+      "fellowship": {
+        "fellowship": "Duke/UNC (backup)",
+        "rank": 99,
+        "city": "Cary/Raleigh NC",
+        "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+      },
+      "flags": []
+    },
+    {
+      "id": 89,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "Green Lake GP $2M",
+      "specialty": "General",
+      "collections": 2000000,
+      "collectionsRaw": "$2,000,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 95,
+      "notes": "TOP PICK — $1M CF, 7 ops, premier area",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 90,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "Turnkey GP 35+ Years",
+      "specialty": "General",
+      "collections": 1022831,
+      "collectionsRaw": "$1,022,831",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 93,
+      "notes": "Legacy practice, hygiene-driven",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 91,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "North Seattle $1.3M",
+      "specialty": "General",
+      "collections": 1300000,
+      "collectionsRaw": "$1,300,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "New listing",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 92,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "Downtown Seattle $725K",
+      "specialty": "General",
+      "collections": 725000,
+      "collectionsRaw": "$725,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Long-standing downtown",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 93,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "S of Seattle $1.35M",
+      "specialty": "General",
+      "collections": 1350000,
+      "collectionsRaw": "$1,350,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "7 ops",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 94,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "S of Seattle $1.2M",
+      "specialty": "General",
+      "collections": 1200000,
+      "collectionsRaw": "$1,200,000",
+      "ops": 6,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 95,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "North Seattle $1.1M",
+      "specialty": "General",
+      "collections": 1100000,
+      "collectionsRaw": "$1,100,000",
+      "ops": 9,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "9 ops",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 96,
+      "market": "Seattle, WA",
+      "city": "Seattle",
+      "name": "North Seattle $370K",
+      "specialty": "General",
+      "collections": 370000,
+      "collectionsRaw": "$370,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Affordable entry",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 97,
+      "market": "Seattle, WA",
+      "city": "Puyallup",
+      "name": "Puyallup/South Hill",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Undisclosed",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Associate-run, south of Seattle",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 98,
+      "market": "Seattle, WA",
+      "city": "Olympia",
+      "name": "Olympia GP + RE",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Undisclosed",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "11 hygiene days/wk, stunning, with RE!",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 99,
+      "market": "Seattle, WA",
+      "city": "Olympia",
+      "name": "Olympia Denture Clinic",
+      "specialty": "General",
+      "collections": 450000,
+      "collectionsRaw": "$450,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 82,
+      "notes": "Denture clinic — add implants!",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 100,
+      "market": "Seattle, WA",
+      "city": "Bellingham",
+      "name": "Bellingham $980K",
+      "specialty": "General",
+      "collections": 980000,
+      "collectionsRaw": "$980,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 88,
+      "notes": "5 ops, 4 days/wk, 1850 active pts",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 101,
+      "market": "Seattle, WA",
+      "city": "Bellingham",
+      "name": "Bellingham $400K",
+      "specialty": "General",
+      "collections": 400000,
+      "collectionsRaw": "$400,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 82,
+      "notes": "Small town, 3 ops — FFS-friendly",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 102,
+      "market": "Seattle, WA",
+      "city": "Edmonds",
+      "name": "Edmonds 4-op GP",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Undisclosed",
+      "ops": 4,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Medical corridor, loyal patient base",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "Seattle WA",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 103,
+      "market": "Cincinnati, OH",
+      "city": "Cincinnati",
+      "name": "NKY Suburb GP $740K",
+      "specialty": "General",
+      "collections": 740000,
+      "collectionsRaw": "$740,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "Desirable suburb, 5 ops",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 104,
+      "market": "Cincinnati, OH",
+      "city": "Cincinnati",
+      "name": "Northern Suburb FFS",
+      "specialty": "General",
+      "collections": 644000,
+      "collectionsRaw": "$644,000",
+      "ops": 3,
+      "sqft": 1350,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 92,
+      "notes": "FFS practice! Solo owner likely",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 105,
+      "market": "Cincinnati, OH",
+      "city": "Cincinnati",
+      "name": "NKY Suburb GP $540K",
+      "specialty": "General",
+      "collections": 540000,
+      "collectionsRaw": "$540,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "Affordable 4-op",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 106,
+      "market": "Cincinnati, OH",
+      "city": "Cincinnati",
+      "name": "Listing #1665",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 4,
+      "sqft": 2400,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 107,
+      "market": "Cincinnati, OH",
+      "city": "Springfield",
+      "name": "Springfield ALL FFS 6ops",
+      "specialty": "General",
+      "collections": 600000,
+      "collectionsRaw": "$600,000",
+      "ops": 6,
+      "sqft": 4000,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "YES!",
+      "score": 97,
+      "notes": "**#1 FFS TARGET** — All FFS, 6 ops, 4000sqft, ~1hr from Cincy",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 108,
+      "market": "Cincinnati, OH",
+      "city": "Upper Arlington",
+      "name": "Upper Arlington Digital",
+      "specialty": "General",
+      "collections": 1750000,
+      "collectionsRaw": "$1,750,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Fully digital, state-of-art, Columbus suburb",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 109,
+      "market": "Cincinnati, OH",
+      "city": "Columbus",
+      "name": "Columbus Suburb $550K",
+      "specialty": "General",
+      "collections": 550000,
+      "collectionsRaw": "$550,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "potential",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "PPO/FFS mix, room to add 4 ops",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 110,
+      "market": "Cincinnati, OH",
+      "city": "Columbus",
+      "name": "Columbus $730K",
+      "specialty": "General",
+      "collections": 730000,
+      "collectionsRaw": "$730,000",
+      "ops": 4,
+      "sqft": 2270,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "New listing",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 111,
+      "market": "Cincinnati, OH",
+      "city": "Dayton",
+      "name": "Dayton GP $1M",
+      "specialty": "General",
+      "collections": 1000000,
+      "collectionsRaw": "$1,000,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "~1hr from Cincy",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 112,
+      "market": "Cincinnati, OH",
+      "city": "Butler County",
+      "name": "Butler County $1.465M",
+      "specialty": "General",
+      "collections": 1465000,
+      "collectionsRaw": "$1,465,000",
+      "ops": 9,
+      "sqft": 4500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "9 ops, large practice",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 113,
+      "market": "Cincinnati, OH",
+      "city": "Fairfield County",
+      "name": "Fairfield County Pedo 100% FFS",
+      "specialty": "Pediatric",
+      "collections": 1050000,
+      "collectionsRaw": "$1,050,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 65,
+      "notes": "100% FFS but pediatric specialty",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "SPECIALTY_MISMATCH",
+        "LOW_SCORE",
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 114,
+      "market": "Cincinnati, OH",
+      "city": "Munroe Falls",
+      "name": "Munroe Falls Turnkey FFS",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 4,
+      "sqft": 2400,
+      "source": "Provide",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 90,
+      "notes": "Turnkey FFS GP! ~3hr from Cincy",
+      "fellowship": {
+        "fellowship": "CHOP proxy?",
+        "rank": null,
+        "city": "Cincinnati OH",
+        "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 115,
+      "market": "St. Louis, MO",
+      "city": "St. Louis",
+      "name": "MO4737 GP",
+      "specialty": "General",
+      "collections": 760000,
+      "collectionsRaw": "$760,000",
+      "ops": 5,
+      "sqft": 3170,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 90,
+      "notes": "5 ops, great space",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 116,
+      "market": "St. Louis, MO",
+      "city": "St. Louis",
+      "name": "MO4649 GP",
+      "specialty": "General",
+      "collections": 800000,
+      "collectionsRaw": "$800,000",
+      "ops": 5,
+      "sqft": 2500,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 88,
+      "notes": "5 ops, 2500 sqft",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 117,
+      "market": "St. Louis, MO",
+      "city": "Metro East IL",
+      "name": "Metro East $820K",
+      "specialty": "General",
+      "collections": 820000,
+      "collectionsRaw": "$820,000",
+      "ops": 4,
+      "sqft": 820,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "15 min from downtown, building avail",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 118,
+      "market": "St. Louis, MO",
+      "city": "Near Scott AFB",
+      "name": "Scott AFB Area GP",
+      "specialty": "General",
+      "collections": 710000,
+      "collectionsRaw": "$710,000",
+      "ops": 4,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Military base, steady patients",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 119,
+      "market": "St. Louis, MO",
+      "city": "45 min from STL",
+      "name": "45-min-out $2.2M",
+      "specialty": "General",
+      "collections": 2200000,
+      "collectionsRaw": "$2,200,000",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "Amazing efficiency — $2.2M on 3 ops",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 120,
+      "market": "St. Louis, MO",
+      "city": "1 hr from STL",
+      "name": "1-hr-out $1.5M",
+      "specialty": "General",
+      "collections": 1500000,
+      "collectionsRaw": "$1,500,000",
+      "ops": 7,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "7 ops, further out",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 121,
+      "market": "St. Louis, MO",
+      "city": "Illinois",
+      "name": "IL GP 30 min from STL",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": 3,
+      "sqft": null,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 80,
+      "notes": "Cross-river",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 122,
+      "market": "St. Louis, MO",
+      "city": "STL Area",
+      "name": "STL Buyer Opportunity",
+      "specialty": "General",
+      "collections": null,
+      "collectionsRaw": "Upon Request",
+      "ops": null,
+      "sqft": 2300,
+      "source": "Provide",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 123,
+      "market": "St. Louis, MO",
+      "city": "Kirkwood",
+      "name": "Kirkwood $1.1M",
+      "specialty": "General",
+      "collections": 1100000,
+      "collectionsRaw": "$1,100,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "Desirable inner-ring suburb",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 124,
+      "market": "St. Louis, MO",
+      "city": "Creve Coeur",
+      "name": "Creve Coeur $950K",
+      "specialty": "General",
+      "collections": 950000,
+      "collectionsRaw": "$950,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 87,
+      "notes": "Digital, Dentrix, 5 ops",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 125,
+      "market": "St. Louis, MO",
+      "city": "Fenton",
+      "name": "Fenton $650K",
+      "specialty": "General",
+      "collections": 650000,
+      "collectionsRaw": "$650,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 85,
+      "notes": "5 ops, south suburb",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 126,
+      "market": "St. Louis, MO",
+      "city": "Eureka",
+      "name": "Eureka $1.1M 4-day week",
+      "specialty": "General",
+      "collections": 1100000,
+      "collectionsRaw": "$1,100,000",
+      "ops": null,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "yes",
+      "ffsRaw": "Yes",
+      "score": 88,
+      "notes": "Rural suburb, 4-day week — FFS transition",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 127,
+      "market": "St. Louis, MO",
+      "city": "Florissant",
+      "name": "Florissant $1.5M",
+      "specialty": "General",
+      "collections": 1500000,
+      "collectionsRaw": "$1,500,000",
+      "ops": 8,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "8 ops, large facility, north county",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 128,
+      "market": "St. Louis, MO",
+      "city": "Springfield MO",
+      "name": "Springfield MO FFS GP",
+      "specialty": "General",
+      "collections": 500000,
+      "collectionsRaw": "$500,000+",
+      "ops": 5,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "yes",
+      "ffsRaw": "YES!",
+      "score": 93,
+      "notes": "TOP FFS — 2000+ FFS patients, 5 ops, 30-hr week, <50% overhead",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 129,
+      "market": "St. Louis, MO",
+      "city": "Springfield MO",
+      "name": "Springfield $1.7M",
+      "specialty": "General",
+      "collections": 1700000,
+      "collectionsRaw": "$1,700,000",
+      "ops": 5,
+      "sqft": null,
+      "source": "Web",
+      "ffs": "unknown",
+      "ffsRaw": null,
+      "score": 82,
+      "notes": "Free-standing building, 30-hr week",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "OFF_SHREYA_LIST"
+      ]
+    },
+    {
+      "id": 130,
+      "market": "St. Louis, MO",
+      "city": "Jefferson County",
+      "name": "Jefferson County $115K",
+      "specialty": "General",
+      "collections": 115000,
+      "collectionsRaw": "$115,000",
+      "ops": null,
+      "sqft": null,
+      "source": "BizBuySell",
+      "ffs": "potential",
+      "ffsRaw": "Potential",
+      "score": 70,
+      "notes": "$350K CF, super affordable entry",
+      "fellowship": {
+        "fellowship": null,
+        "rank": null,
+        "city": "St Louis MO",
+        "notes": "Not on Shreya's rank list"
+      },
+      "flags": [
+        "CHART_SALE",
+        "LOW_SCORE",
+        "OFF_SHREYA_LIST"
+      ]
+    }
+  ],
+  "fellowshipMap": {
+    "Denver, CO": {
+      "fellowship": "Colorado/BDC",
+      "rank": 1,
+      "city": "Aurora/Denver CO",
+      "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
+    },
+    "Orlando, FL": {
+      "fellowship": "Nemours Orlando",
+      "rank": 3,
+      "city": "Orlando FL",
+      "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
+    },
+    "Nashville, TN": {
+      "fellowship": "Vanderbilt",
+      "rank": 5,
+      "city": "Nashville TN",
+      "notes": "Shreya's #5 — Vanderbilt"
+    },
+    "Portland, OR": {
+      "fellowship": null,
+      "rank": null,
+      "city": "Portland OR",
+      "notes": "Not on Shreya's rank list"
+    },
+    "NC Triangle": {
+      "fellowship": "Duke/UNC (backup)",
+      "rank": 99,
+      "city": "Cary/Raleigh NC",
+      "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
+    },
+    "Seattle, WA": {
+      "fellowship": null,
+      "rank": null,
+      "city": "Seattle WA",
+      "notes": "Not on Shreya's rank list"
+    },
+    "Cincinnati, OH": {
+      "fellowship": "CHOP proxy?",
+      "rank": null,
+      "city": "Cincinnati OH",
+      "notes": "Not on rank list — adjacent to CHOP (Philly)? No."
+    },
+    "St. Louis, MO": {
+      "fellowship": null,
+      "rank": null,
+      "city": "St Louis MO",
+      "notes": "Not on Shreya's rank list"
+    }
+  },
+  "generated": "2026-04-19T13:50:13.353Z"
+};
+window.PARIKH_BROKERS = [
+  {
+    "name": "Provide (Fifth Third Bank)",
+    "markets": "All 8 Markets",
+    "website": "getprovide.com",
+    "specialty": "All dental",
+    "notes": "BEST — most listings, pre-qualification available"
+  },
+  {
+    "name": "Henry Schein Practice Transitions",
+    "markets": "All 8 Markets",
+    "website": "dentalpracticetransitions.henryschein.com",
+    "specialty": "All dental",
+    "notes": "Largest broker network nationally"
+  },
+  {
+    "name": "ADS Transitions",
+    "markets": "CO, OR, NC",
+    "website": "adstransitions.com",
+    "specialty": "General & specialty",
+    "notes": "Western US focus"
+  },
+  {
+    "name": "ADS South",
+    "markets": "TN, NC",
+    "website": "adssouth.com",
+    "specialty": "Southeast",
+    "notes": "Southeast specialist"
+  },
+  {
+    "name": "ADS Precise Consultants",
+    "markets": "CO",
+    "website": "adsprecise.com",
+    "specialty": "Colorado",
+    "notes": "Colorado specialist"
+  },
+  {
+    "name": "Paragon Practice Transitions",
+    "markets": "FL, OR, WA, MO",
+    "website": "paragon.us.com",
+    "specialty": "National",
+    "notes": "Since 1988"
+  },
+  {
+    "name": "Doctor's Choice Companies",
+    "markets": "FL (Orlando)",
+    "website": "doctors-choice.com",
+    "specialty": "Central FL",
+    "notes": "Local Orlando expertise"
+  },
+  {
+    "name": "DDSmatch Florida",
+    "markets": "FL",
+    "website": "florida.ddsmatch.com",
+    "specialty": "Florida",
+    "notes": "FL specialist"
+  },
+  {
+    "name": "DDSmatch St. Louis",
+    "markets": "MO, IL",
+    "website": "stlregion.ddsmatch.com",
+    "specialty": "STL metro",
+    "notes": "MO-IL specialist"
+  },
+  {
+    "name": "My Dental Broker",
+    "markets": "OR, WA",
+    "website": "mydentalbroker.com",
+    "specialty": "Pacific NW",
+    "notes": "Oregon & Washington"
+  },
+  {
+    "name": "Green Sail Transitions",
+    "markets": "OR, WA, CA",
+    "website": "greensailtransitions.com",
+    "specialty": "West Coast",
+    "notes": "Pacific NW + CA"
+  },
+  {
+    "name": "OMNI Practice Group",
+    "markets": "WA",
+    "website": "omni-pg.com",
+    "specialty": "Washington",
+    "notes": "WA specialist"
+  },
+  {
+    "name": "Dental Group Transitions",
+    "markets": "WA",
+    "website": "dgtransitions.com",
+    "specialty": "Washington",
+    "notes": "WA practices"
+  },
+  {
+    "name": "Dental Strategic",
+    "markets": "TN",
+    "website": "dentalstrategic.com",
+    "specialty": "Tennessee",
+    "notes": "Nashville area"
+  },
+  {
+    "name": "Otten-Rey Dental Sales",
+    "markets": "MO",
+    "website": "ottenreydentalsales.com",
+    "specialty": "Missouri",
+    "notes": "STL area — (314) 805-6257"
+  },
+  {
+    "name": "Practice Impact",
+    "markets": "OH",
+    "website": "practiceimpact.com",
+    "specialty": "Ohio",
+    "notes": "Cincinnati area"
+  },
+  {
+    "name": "Elevate Dental Partners",
+    "markets": "OH",
+    "website": "elevatedentalpartners.com",
+    "specialty": "Ohio",
+    "notes": "Ohio listings"
+  },
+  {
+    "name": "Practice Endeavors",
+    "markets": "OH",
+    "website": "practicendeavors.com",
+    "specialty": "Ohio",
+    "notes": "Columbus, Cincy, Dayton"
+  },
+  {
+    "name": "TransitionOne",
+    "markets": "OH, MI, KY",
+    "website": "transitionone.net",
+    "specialty": "Midwest",
+    "notes": "Premier Midwest broker"
+  },
+  {
+    "name": "Dental Exchange LLC",
+    "markets": "NC",
+    "website": "dentalexchangellc.com",
+    "specialty": "North Carolina",
+    "notes": "NC specialist"
+  },
+  {
+    "name": "Dental Evolutions",
+    "markets": "NC",
+    "website": "dentalconsultingps.com",
+    "specialty": "NC Triangle",
+    "notes": "Triangle area transitions"
+  },
+  {
+    "name": "1st Med Transitions",
+    "markets": "FL, NC",
+    "website": "1stmedtransitions.com",
+    "specialty": "Southeast",
+    "notes": "Cary NC listing, seller guides"
+  },
+  {
+    "name": "Physician Solutions",
+    "markets": "NC",
+    "website": "physiciansolutions.com",
+    "specialty": "NC",
+    "notes": "Medical/dental practice sales"
+  },
+  {
+    "name": "CTC Associates",
+    "markets": "CO",
+    "website": "Via Dentagraphics",
+    "specialty": "Colorado",
+    "notes": "Denver area specialist"
+  },
+  {
+    "name": "BizBuySell",
+    "markets": "National",
+    "website": "bizbuysell.com",
+    "specialty": "All business",
+    "notes": "General marketplace"
+  },
+  {
+    "name": "DealStream",
+    "markets": "National",
+    "website": "dealstream.com",
+    "specialty": "All dental",
+    "notes": "Deal aggregator"
+  },
+  {
+    "name": "CO Dental Association",
+    "markets": "CO",
+    "website": "cdaonline.org",
+    "specialty": "Colorado",
+    "notes": "State classifieds"
+  },
+  {
+    "name": "NC Dental Society",
+    "markets": "NC",
+    "website": "ncdental.org",
+    "specialty": "NC",
+    "notes": "State classifieds"
+  },
+  {
+    "name": "WA State Dental Assoc.",
+    "markets": "WA",
+    "website": "wsda.org",
+    "specialty": "Washington",
+    "notes": "State classifieds"
+  },
+  {
+    "name": "Metro Denver Dental Soc.",
+    "markets": "CO",
+    "website": "mddsdentist.com",
+    "specialty": "Denver",
+    "notes": "Local classifieds"
+  },
+  {
+    "name": "Greater STL Dental Soc.",
+    "markets": "MO",
+    "website": "greaterstlouisdentalsociety.org",
+    "specialty": "STL",
+    "notes": "Local classifieds"
+  },
+  {
+    "name": "UW School of Dentistry",
+    "markets": "WA",
+    "website": "dental.washington.edu",
+    "specialty": "WA",
+    "notes": "Practice opportunities board"
+  }
+];
