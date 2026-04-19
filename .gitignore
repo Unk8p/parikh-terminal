@@ -2,3 +2,12 @@
 node_modules/
 *.log
 uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Enricher response cache (regenerated on demand)
+scripts/.cache/
