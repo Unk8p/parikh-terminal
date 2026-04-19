@@ -1,159 +1,210 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Parikh Acquisition Terminal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F6F4EE">
+<title>Practice Finder — Parikh</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
 <style>
   :root {
-    --bg: #0c0c0d;
-    --bg-1: #121214;
-    --bg-2: #1a1a1d;
-    --bg-3: #232327;
-    --line: #2a2a2e;
-    --line-2: #363639;
-    --ink: #ececed;
-    --ink-2: #b0b0b3;
-    --ink-3: #77777a;
-    --ink-4: #4a4a4d;
-    --amber: #e8b04a;
-    --amber-2: #f0c46e;
-    --amber-dim: #8a6a2a;
-    --green: #6ec389;
-    --red: #d16a6a;
-    --blue: #6b9ad1;
-    --purple: #a47bd1;
+    /* Calm paper palette — warm off-white with sage/clay accents */
+    --paper:     #F6F4EE;   /* page bg */
+    --paper-2:   #FBFAF6;   /* card bg */
+    --paper-3:   #EFEDE5;   /* subtle raise */
+    --line:      #E4DFD3;   /* hairline */
+    --line-2:    #D4CEBF;   /* stronger border */
+    --ink:       #1F2420;   /* primary text */
+    --ink-2:     #40463F;   /* secondary */
+    --ink-3:     #6C7268;   /* tertiary */
+    --ink-4:     #9CA199;   /* quaternary */
+
+    /* Accents — natural, restrained */
+    --sage:      #5B7A5A;   /* primary accent */
+    --sage-2:    #7A9679;   /* hover */
+    --sage-soft: #DCE4DB;
+    --clay:      #B8654A;   /* warning / attention */
+    --clay-soft: #F2DDD4;
+    --gold:      #A37D2C;   /* highlight */
+    --gold-soft: #F0E4C3;
+    --sky:       #4C6F8C;   /* info */
+    --sky-soft:  #D9E3EC;
+    --rose:      #9E4A5A;   /* critical */
+    --rose-soft: #EAD4D8;
+    --moss:      #4A6B4A;   /* success darker */
+
+    /* Feedback */
+    --ok:        var(--sage);
+    --warn:      var(--clay);
+    --danger:    var(--rose);
   }
+
   * { box-sizing: border-box; }
-  html, body {
-    margin: 0; padding: 0; background: var(--bg); color: var(--ink);
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
     font-family: 'Inter', system-ui, sans-serif;
-    font-size: 13px; line-height: 1.45;
+    font-size: 14px;
+    line-height: 1.45;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden; height: 100vh;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior: none;
   }
-  .mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
-  .serif { font-family: 'Instrument Serif', serif; font-style: italic; }
 
-  button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; padding: 0; }
-  input, select, textarea { font: inherit; color: inherit; }
-  a { color: var(--amber); text-decoration: none; }
-  a:hover { text-decoration: underline; }
+  .serif { font-family: 'Fraunces', Georgia, serif; font-weight: 400; letter-spacing: -0.005em; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; font-feature-settings: "tnum"; }
+  .num { font-family: 'JetBrains Mono', ui-monospace, monospace; font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
 
-  /* scrollbars */
-  ::-webkit-scrollbar { width: 10px; height: 10px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--bg-3); border-radius: 0; }
-  ::-webkit-scrollbar-thumb:hover { background: var(--line-2); }
+  a { color: var(--sage); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.12s; }
+  a:hover { border-bottom-color: var(--sage); }
 
-  #root { height: 100vh; width: 100vw; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; padding: 0; }
 
-  /* --- Mobile --- */
+  /* Form controls */
+  input[type=text], input[type=number], textarea, select {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    padding: 8px 10px;
+    outline: none;
+    font-size: 13px;
+    font-family: inherit;
+    width: 100%;
+    border-radius: 6px;
+    transition: border-color 0.12s, box-shadow 0.12s;
+  }
+  input[type=text]:focus, input[type=number]:focus, textarea:focus, select:focus {
+    border-color: var(--sage);
+    box-shadow: 0 0 0 3px var(--sage-soft);
+  }
+
+  input[type=range] {
+    -webkit-appearance: none; appearance: none;
+    width: 100%; height: 4px;
+    background: var(--paper-3);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 16px; height: 16px; background: var(--sage);
+    cursor: pointer; border-radius: 50%;
+    border: 2px solid var(--paper);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    transition: transform 0.1s;
+  }
+  input[type=range]::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 16px; height: 16px; background: var(--sage);
+    cursor: pointer; border-radius: 50%;
+    border: 2px solid var(--paper);
+  }
+
+  /* Scrollbars */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--ink-4); }
+
+  /* Mobile drawer backdrop */
+  .drawer-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(31, 36, 32, 0.4);
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.22s;
+    z-index: 80;
+  }
+  .drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+
+  /* Utility */
+  .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* Focus visibility */
+  button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--sage);
+    outline-offset: 2px;
+  }
+
+  /* Nice pill button */
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 12px;
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--ink-2);
+    transition: all 0.12s;
+  }
+  .pill:hover { border-color: var(--line-2); background: var(--paper-3); }
+  .pill.active { background: var(--sage); color: white; border-color: var(--sage); }
+
+  /* Confidence badges */
+  .conf {
+    display: inline-flex; align-items: center; gap: 3px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+  .conf.verified { background: var(--sage-soft); color: var(--moss); }
+  .conf.inferred { background: var(--gold-soft); color: var(--gold); }
+  .conf.unknown  { background: var(--paper-3); color: var(--ink-3); }
+
+  /* Page container */
+  #root { min-height: 100vh; min-height: 100dvh; }
+
+  /* Card surface */
+  .card {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .card-hover {
+    transition: border-color 0.12s, box-shadow 0.12s, transform 0.12s;
+  }
+  .card-hover:hover {
+    border-color: var(--line-2);
+    box-shadow: 0 2px 8px rgba(31,36,32,0.04);
+  }
+
   @media (max-width: 768px) {
-    html, body {
-      overflow: auto;
-      height: auto;
-      min-height: 100vh;
-      font-size: 14px;
-    }
-    #root { height: auto; width: 100%; min-height: 100vh; }
-    ::-webkit-scrollbar { width: 0; height: 0; }
-  }
-
-  /* Mobile top bar — only visible on small screens */
-  .mobile-topbar { display: none; }
-  @media (max-width: 768px) {
-    .mobile-topbar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      background: var(--bg-1);
-      border-bottom: 1px solid var(--line);
-      position: sticky;
-      top: 0;
-      z-index: 50;
-    }
-    .mobile-topbar__brand {
-      font-family: 'Instrument Serif', serif;
-      font-style: italic;
-      font-size: 18px;
-      color: var(--ink);
-      flex: 1;
-      line-height: 1;
-    }
-    .mobile-topbar__tag {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      color: var(--ink-4);
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-    }
-    .mobile-topbar__btn {
-      padding: 7px 11px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      color: var(--ink-2);
-      background: var(--bg-2);
-      border: 1px solid var(--line);
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-    }
-    .mobile-topbar__btn--active {
-      color: var(--amber-2);
-      border-color: var(--amber-dim);
-    }
-  }
-
-  /* Backdrop for mobile overlays */
-  .mobile-backdrop {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-    z-index: 90;
-  }
-  @media (max-width: 768px) {
-    .mobile-backdrop.open { display: block; }
+    body { font-size: 14px; }
   }
 </style>
-
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="root"></div>
 
+<!-- pinned React + Babel -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<!-- data + logic -->
 <script type="text/babel" src="src/data.jsx"></script>
+<script type="text/babel" src="src/enrichment.jsx"></script>
 <script type="text/babel" src="src/scoring.jsx"></script>
 <script type="text/babel" src="src/components.jsx"></script>
 <script type="text/babel" src="src/sidebar.jsx"></script>
-<script type="text/babel" src="src/table.jsx"></script>
+<script type="text/babel" src="src/list.jsx"></script>
 <script type="text/babel" src="src/detail.jsx"></script>
 <script type="text/babel" src="src/app.jsx"></script>
 
 <script type="text/babel">
-  const { useEffect, useState } = React;
-  function Boot() {
-    const [ready, setReady] = useState(false);
-    useEffect(() => {
-      // wait for window.PARIKH_DATA to load
-      let tries = 0;
-      const t = setInterval(() => {
-        tries++;
-        if (window.PARIKH_DATA) { clearInterval(t); setReady(true); }
-        else if (tries > 100) { clearInterval(t); console.error('Data load timeout'); }
-      }, 50);
-      return () => clearInterval(t);
-    }, []);
-    if (!ready) return <div style={{padding:40, color:'#77777a', fontFamily:'IBM Plex Mono'}}>loading…</div>;
-    return <window.App />;
-  }
-  ReactDOM.createRoot(document.getElementById('root')).render(<Boot />);
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<App />);
 </script>
 </body>
 </html>

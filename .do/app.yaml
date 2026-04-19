@@ -7,7 +7,7 @@ static_sites:
     source_dir: /
     github:
       # Update these two after pushing to GitHub
-      repo: Unk8p/parikh-terminal
+      repo: CHANGE-ME/parikh-terminal
       branch: main
       deploy_on_push: true
     # No build step — pure static HTML/JS

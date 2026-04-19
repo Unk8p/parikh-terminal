@@ -1,4 +1,4 @@
-// Right-side detail drawer
+// Detail panel — listing deep-dive with enrichment fields, commute, deal model, outreach
 
 const { useState: useStateD } = React;
 
@@ -7,11 +7,11 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
   const l = listing;
   const fit = l.fit;
   const deal = l.deal;
+  const e = l.enrich || {};
+  const geo = fit.geoDetail;
   const out = outreach[l.id] || { status: 'Not Started', note: '', contactDate: '', offer: '' };
-
   const update = (patch) => setOutreach({ ...outreach, [l.id]: { ...out, ...patch } });
 
-  // find matching brokers for this market
   const marketBrokers = brokers.filter(b => {
     const m = (b.markets || '').toLowerCase();
     const market = (l.market || '').toLowerCase();
@@ -20,112 +20,204 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
     if (market.includes('orlando') && /fl|florida/i.test(m)) return true;
     if (market.includes('nashville') && /tn/i.test(m)) return true;
     if (market.includes('nc') && /nc/i.test(m)) return true;
-    if (market.includes('portland') && /or|oregon/i.test(m)) return true;
-    if (market.includes('seattle') && /wa/i.test(m)) return true;
-    if (market.includes('cincinnati') && /oh/i.test(m)) return true;
-    if (market.includes('st. louis') && /mo|il/i.test(m)) return true;
     return false;
   }).slice(0, 6);
 
-  const mobileStyle = isMobile ? {
-    position: 'fixed',
-    inset: 0,
-    width: '100%',
-    height: '100vh',
-    zIndex: 110,
-    borderLeft: 'none'
-  } : {};
+  const style = isMobile ? {
+    position: 'fixed', inset: 0, width: '100%', height: '100dvh',
+    zIndex: 100, borderLeft: 'none',
+  } : {
+    width: 480, height: '100vh',
+    position: 'sticky', top: 0, flexShrink: 0,
+    borderLeft: '1px solid var(--line)',
+  };
+
+  const searchLink = (q) => `https://www.google.com/search?q=${encodeURIComponent(q)}`;
 
   return (
     <aside style={{
-      width: 440, height: '100vh', overflowY: 'auto',
-      background: 'var(--bg-1)', borderLeft: '1px solid var(--line)',
-      flexShrink: 0,
-      ...mobileStyle
+      overflowY: 'auto',
+      background: 'var(--paper-2)',
+      ...style,
     }}>
       {/* Header */}
-      <div style={{ padding: '16px 18px 14px', borderBottom: '1px solid var(--line)', position: 'sticky', top: 0, background: 'var(--bg-1)', zIndex: 5 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', gap: 12 }}>
+      <div style={{ padding: '18px 22px 16px', borderBottom: '1px solid var(--line)', position: 'sticky', top: 0, background: 'var(--paper-2)', zIndex: 5 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 14 }}>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.8 }}>
-              {l.city}, {l.market.split(',')[0].replace('NC Triangle', 'NC')}
+              {l.city} · {l.market.split(',')[0]}
             </div>
-            <div className="serif" style={{ fontSize: 22, color: 'var(--ink)', marginTop: 2, lineHeight: 1.2 }}>
+            <h2 className="serif" style={{ margin: '4px 0 0', fontSize: 24, fontWeight: 500, lineHeight: 1.2 }}>
               {l.name}
-            </div>
-            <div style={{ display: 'flex', gap: 6, marginTop: 8, flexWrap: 'wrap' }}>
-              {l.ffs === 'yes' && <Chip tone="amber">All FFS</Chip>}
-              {l.ffs === 'potential' && <Chip tone="blue">FFS potential</Chip>}
-              {l.fellowship?.rank && l.fellowship.rank < 10 && <Chip tone="amber">Shreya rank #{l.fellowship.rank}</Chip>}
+            </h2>
+            <div style={{ display: 'flex', gap: 6, marginTop: 10, flexWrap: 'wrap' }}>
+              {l.ffs === 'yes' && <Chip tone="gold">All-FFS</Chip>}
+              {l.ffs === 'potential' && <Chip tone="sky">FFS potential</Chip>}
+              {l.fellowship?.rank && l.fellowship.rank <= 5 && <Chip tone="gold">Shreya rank #{l.fellowship.rank}</Chip>}
+              {e.sedationPermit?.value === true && <Chip tone="sage">Sedation permit ✓</Chip>}
               {l.source && <Chip tone="ghost">{l.source}</Chip>}
             </div>
           </div>
-          <button onClick={onClose} style={{
-            width: 26, height: 26, color: 'var(--ink-3)', fontSize: 18, lineHeight: 1,
-            border: '1px solid var(--line)'
+          <button onClick={onClose} aria-label="Close" style={{
+            width: 32, height: 32, border: '1px solid var(--line)', borderRadius: 6,
+            color: 'var(--ink-3)', fontSize: 20,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            background: 'var(--paper)',
           }}>×</button>
         </div>
       </div>
 
       {/* Fit breakdown */}
-      <div style={{ padding: '18px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 18 }}>
-          <ScoreRing value={fit.composite} size={78} />
-          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 6 }}>
-            <ScoreBar value={fit.deal} label="Deal" width={140} />
-            <ScoreBar value={fit.ffs} label="FFS" width={140} />
-            <ScoreBar value={fit.location} label="Loc" width={140} />
-            <ScoreBar value={fit.upside} label="Upside" width={140} />
-          </div>
+      <div style={{ padding: '20px 22px', display: 'flex', alignItems: 'center', gap: 20 }}>
+        <ScoreRing value={fit.composite} size={86} stroke={7} />
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 7 }}>
+          <ScoreBar value={fit.deal} label="Deal" width={160} />
+          <ScoreBar value={fit.ffs} label="FFS" width={160} />
+          <ScoreBar value={fit.location} label="Loc" width={160} />
+          <ScoreBar value={fit.upside} label="Upside" width={160} />
+          <ScoreBar value={fit.geo} label="Geo" width={160} />
         </div>
       </div>
 
-      {/* Why this / why not */}
-      <div style={{ padding: '0 18px 18px' }}>
-        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6, marginBottom: 6 }}>
-          Read
-        </div>
-        <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.55 }}>
+      {/* Read */}
+      <div style={{ padding: '0 22px 18px' }}>
+        <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.6 }}>
           {generateRead(l)}
         </div>
       </div>
 
-      {/* Practice facts */}
-      <SectionLabel>Practice</SectionLabel>
-      <div style={{ padding: '10px 18px 14px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px 18px' }}>
-        <Fact label="Collections" value={fmtMoneyFull(l.collections)} mono />
-        <Fact label="Operatories" value={l.ops ?? '—'} mono />
-        <Fact label="Square feet" value={l.sqft ? l.sqft.toLocaleString() : '—'} mono />
-        <Fact label="Specialty" value={l.specialty} />
-        <Fact label="FFS status" value={l.ffsRaw || 'Unknown'} />
-        <Fact label="Source" value={l.source} />
+      {/* Home base / commute */}
+      {geo && (
+        <>
+          <SectionLabel>Home base & commute</SectionLabel>
+          <div style={{ padding: '10px 22px 18px' }}>
+            <div style={{ padding: 14, background: 'var(--paper-3)', borderRadius: 8, marginBottom: 10 }}>
+              <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
+                Best-fit neighborhood
+              </div>
+              <div style={{ fontSize: 17, fontWeight: 600, color: 'var(--ink)', marginTop: 3 }}>
+                {geo.neighborhood.name}
+              </div>
+              <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 3 }}>
+                Schools {geo.neighborhood.schools}/10 · ~${geo.neighborhood.priceK}K median home
+              </div>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+              <CommuteBox label="To practice" min={geo.toPractice} />
+              <CommuteBox label="To Shreya's hospital" min={geo.toShreya} />
+            </div>
+            <div style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 10, fontStyle: 'italic' }}>
+              Estimates from straight-line distance · Cowork pipeline will replace with Google Maps drive times.
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* Practice facts (enrichable) */}
+      <SectionLabel right={<span className="mono" style={{ fontSize: 10, color: 'var(--ink-4)' }}>refreshed nightly</span>}>
+        Practice facts
+      </SectionLabel>
+      <div style={{ padding: '10px 22px 18px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px 20px' }}>
+          <Fact label="Collections" value={fmtMoneyFull(l.collections)} mono />
+          <Fact label="Operatories" value={l.ops ?? '—'} mono />
+          <Fact label="Square feet" value={l.sqft ? l.sqft.toLocaleString() : '—'} mono />
+          <Fact label="Specialty" value={l.specialty} />
+          <Fact label="Practice website" value={e.practiceUrl?.value
+            ? <a href={e.practiceUrl.value} target="_blank" rel="noopener">{e.practiceUrl.value.replace(/^https?:\/\//, '')}</a>
+            : null} confidence={e.practiceUrl?.conf} />
+          <Fact label="Google rating" value={e.googleRating?.value
+            ? `★ ${e.googleRating.value.stars} (${e.googleRating.value.count})`
+            : null} confidence={e.googleRating?.conf} />
+          <Fact label="Owner name" value={e.ownerName?.value} confidence={e.ownerName?.conf} />
+          <Fact label="License #" value={e.licenseNumber?.value} confidence={e.licenseNumber?.conf} mono />
+          <Fact label="Years licensed" value={e.yearsLicensed?.value} confidence={e.yearsLicensed?.conf} mono />
+          <Fact label="Sedation permit" value={
+            e.sedationPermit?.value === true ? 'Yes' :
+            e.sedationPermit?.value === false ? 'No' : null
+          } confidence={e.sedationPermit?.conf}
+             accent={e.sedationPermit?.value === true ? 'sage' : null} />
+        </div>
+
+        {/* Procedures */}
+        <div style={{ marginTop: 18 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 6 }}>
+            <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.5 }}>
+              Procedures offered
+            </span>
+            <Confidence level={e.proceduresOffered?.conf} />
+          </div>
+          {e.proceduresOffered?.value?.length ? (
+            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+              {e.proceduresOffered.value.map((p, i) => <Chip key={i} tone="default" size="xs">{p}</Chip>)}
+            </div>
+          ) : (
+            <div style={{ fontSize: 12, color: 'var(--ink-4)', fontStyle: 'italic' }}>
+              not yet known — inferred from reviews + site once we know practice name
+            </div>
+          )}
+        </div>
+
+        {/* Quick research shortcuts */}
+        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 16, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
+          <a className="pill" href={searchLink(`${l.name} ${l.city} dentist`)} target="_blank" rel="noopener">🔍 Google this</a>
+          <a className="pill" href={searchLink(`dentist ${l.city} reviews site:google.com/maps`)} target="_blank" rel="noopener">Maps</a>
+          <a className="pill" href={`https://www.google.com/maps/search/dentist+${encodeURIComponent(l.city)}`} target="_blank" rel="noopener">Competitors nearby</a>
+        </div>
       </div>
+
+      {/* Demographics (enrichable) */}
+      <SectionLabel>Area & competition</SectionLabel>
+      <div style={{ padding: '10px 22px 18px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px 20px' }}>
+        <Fact label="Median income" value={e.medianIncome?.value ? '$' + e.medianIncome.value.toLocaleString() : null}
+          confidence={e.medianIncome?.conf} mono />
+        <Fact label="Population growth (5y)" value={e.populationGrowth5y?.value ? (e.populationGrowth5y.value > 0 ? '+' : '') + e.populationGrowth5y.value + '%' : null}
+          confidence={e.populationGrowth5y?.conf} mono />
+        <Fact label="Competing practices (3mi)" value={e.competingPractices3mi?.value}
+          confidence={e.competingPractices3mi?.conf} mono />
+        <Fact label="First seen" value={e.firstSeen?.value} confidence={e.firstSeen?.conf} mono />
+      </div>
+
+      {/* Recent headlines */}
+      {e.recentHeadlines?.value?.length > 0 && (
+        <>
+          <SectionLabel>Recent headlines</SectionLabel>
+          <div style={{ padding: '10px 22px 18px', display: 'flex', flexDirection: 'column', gap: 8 }}>
+            {e.recentHeadlines.value.map((h, i) => (
+              <a key={i} href={h.url} target="_blank" rel="noopener" style={{ display: 'block', padding: 10, background: 'var(--paper-3)', borderRadius: 6 }}>
+                <div style={{ fontSize: 13, color: 'var(--ink)', fontWeight: 500, lineHeight: 1.3 }}>{h.title}</div>
+                <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginTop: 3 }}>{h.date}</div>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
 
       {/* Deal model */}
       {deal && (
         <>
           <SectionLabel right={
-            <span className="mono" style={{ fontSize: 10, color: deal.dscr >= 1.25 ? 'var(--green)' : 'var(--red)', fontWeight: 600 }}>
-              {deal.dscr >= 1.25 ? '● DSCR OK' : '● DSCR LOW'}
+            <span className="mono" style={{ fontSize: 10, fontWeight: 600, color: deal.dscr >= 1.25 ? 'var(--sage)' : 'var(--rose)' }}>
+              ● DSCR {deal.dscr >= 1.25 ? 'OK' : 'LOW'}
             </span>
-          }>SBA 7(a) Model</SectionLabel>
-          <div style={{ padding: '10px 18px 14px' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px 18px', marginBottom: 12 }}>
+          }>SBA 7(a) model</SectionLabel>
+          <div style={{ padding: '10px 22px 18px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px 20px', marginBottom: 14 }}>
               <Fact label="Purchase price" value={fmtMoneyFull(deal.price)} mono />
-              <Fact label="Loan amount" value={fmtMoneyFull(deal.loanAmt)} mono />
+              <Fact label="Loan" value={fmtMoneyFull(deal.loanAmt)} mono />
               <Fact label="Monthly debt" value={fmtMoneyFull(deal.monthlyPay)} mono />
               <Fact label="Annual debt" value={fmtMoneyFull(deal.annualDebt)} mono />
-              <Fact label="Base EBITDA (35%)" value={fmtMoneyFull(deal.baseEbitda)} mono />
-              <Fact label="Your upside" value={'+' + fmtMoneyFull(deal.upsideEbitda)} mono accent />
+              <Fact label="Base EBITDA" value={fmtMoneyFull(deal.baseEbitda)} mono />
+              <Fact label="Your upside" value={'+' + fmtMoneyFull(deal.upsideEbitda)} mono accent="sage" />
               <Fact label="Proj. EBITDA" value={fmtMoneyFull(deal.projEbitda)} mono />
               <Fact label="DSCR" value={deal.dscr.toFixed(2) + '×'} mono
-                accent={deal.dscr >= 1.25 ? 'green' : 'red'} />
+                accent={deal.dscr >= 1.25 ? 'sage' : 'rose'} />
             </div>
-            <div style={{ padding: 12, background: 'var(--bg-2)', border: '1px solid var(--line)' }}>
-              <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
-                Proj. take-home (post-debt, pre-tax)
+            <div style={{ padding: 14, background: 'var(--sage-soft)', borderRadius: 8 }}>
+              <div className="mono" style={{ fontSize: 10, color: 'var(--moss)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
+                Projected take-home (post-debt, pre-tax)
               </div>
-              <div className="mono" style={{ fontSize: 22, color: deal.takeHome > 0 ? 'var(--amber-2)' : 'var(--red)', fontWeight: 600, marginTop: 2 }}>
+              <div className="num" style={{ fontSize: 26, color: deal.takeHome > 0 ? 'var(--moss)' : 'var(--rose)', fontWeight: 600, marginTop: 4 }}>
                 {fmtMoneyFull(deal.takeHome)}
               </div>
             </div>
@@ -133,65 +225,50 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
         </>
       )}
 
-      {/* Shreya commute */}
-      {l.fellowship && l.fellowship.rank && l.fellowship.rank < 10 && (
-        <>
-          <SectionLabel>Shreya Fit</SectionLabel>
-          <div style={{ padding: '10px 18px 14px' }}>
-            <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.55 }}>
-              {l.fellowship.notes}
-            </div>
-          </div>
-        </>
-      )}
-
       {/* Outreach */}
       <SectionLabel>Outreach</SectionLabel>
-      <div style={{ padding: '10px 18px 18px' }}>
-        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.6 }}>Status</div>
-        <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap', marginBottom: 12 }}>
-          {['Not Started','Contacted','LOI','Under Review','Pass'].map(st => (
+      <div style={{ padding: '10px 22px 18px' }}>
+        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 8, textTransform: 'uppercase', letterSpacing: 0.6 }}>Status</div>
+        <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginBottom: 14 }}>
+          {['Not Started','Contacted','Under Review','LOI','Pass'].map(st => (
             <button key={st} onClick={() => update({ status: st })}
-              style={{
-                padding: '4px 9px', fontSize: 11,
-                background: out.status === st ? 'var(--amber)' : 'var(--bg-2)',
-                color: out.status === st ? 'var(--bg)' : 'var(--ink-2)',
-                border: `1px solid ${out.status === st ? 'var(--amber)' : 'var(--line)'}`,
-                fontWeight: out.status === st ? 600 : 400
-              }}>{st}</button>
+              className={'pill' + (out.status === st ? ' active' : '')}>
+              {st}
+            </button>
           ))}
         </div>
-
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginBottom: 10 }}>
           <div>
-            <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.6 }}>Contact date</div>
-            <input type="text" placeholder="e.g. 4/22/26" value={out.contactDate || ''} onChange={(e) => update({ contactDate: e.target.value })} />
+            <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 5, textTransform: 'uppercase', letterSpacing: 0.5 }}>Contact date</div>
+            <input type="text" placeholder="4/22/26" value={out.contactDate || ''} onChange={(e) => update({ contactDate: e.target.value })} />
           </div>
           <div>
-            <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.6 }}>Your offer</div>
-            <input type="text" placeholder="e.g. $540K" value={out.offer || ''} onChange={(e) => update({ offer: e.target.value })} />
+            <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 5, textTransform: 'uppercase', letterSpacing: 0.5 }}>Your offer</div>
+            <input type="text" placeholder="$540K" value={out.offer || ''} onChange={(e) => update({ offer: e.target.value })} />
           </div>
         </div>
         <div>
-          <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 0.6 }}>Notes</div>
+          <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginBottom: 5, textTransform: 'uppercase', letterSpacing: 0.5 }}>Notes</div>
           <textarea rows={3} placeholder="Broker response, next step, red flags…"
-            value={out.note || ''} onChange={(e) => update({ note: e.target.value })}
-            style={{ resize: 'vertical', minHeight: 56 }} />
+            value={out.note || ''} onChange={(ev) => update({ note: ev.target.value })}
+            style={{ resize: 'vertical', minHeight: 64 }} />
         </div>
       </div>
 
       {/* Brokers */}
       {marketBrokers.length > 0 && (
         <>
-          <SectionLabel count={marketBrokers.length}>Brokers for {l.market.split(',')[0]}</SectionLabel>
-          <div style={{ padding: '8px 18px 24px' }}>
+          <SectionLabel count={marketBrokers.length}>Brokers · {l.market.split(',')[0]}</SectionLabel>
+          <div style={{ padding: '8px 22px 30px' }}>
             {marketBrokers.map((b, i) => (
-              <div key={i} style={{ padding: '8px 0', borderBottom: i < marketBrokers.length - 1 ? '1px solid var(--line)' : 'none' }}>
-                <div style={{ fontSize: 12, color: 'var(--ink)', fontWeight: 500 }}>{b.name}</div>
-                <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', marginTop: 1 }}>
+              <div key={i} style={{ padding: '10px 0', borderBottom: i < marketBrokers.length - 1 ? '1px solid var(--line)' : 'none' }}>
+                <div style={{ fontSize: 13, color: 'var(--ink)', fontWeight: 500 }}>{b.name}</div>
+                <div className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>
                   {b.website && <a href={`https://${b.website}`} target="_blank" rel="noopener">{b.website}</a>}
-                  {b.notes && <span style={{ color: 'var(--ink-4)' }}> · {b.notes}</span>}
+                  {b.phone && <span> · {b.phone}</span>}
+                  {b.email && <span> · <a href={`mailto:${b.email}`}>{b.email}</a></span>}
                 </div>
+                {b.notes && <div style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 3 }}>{b.notes}</div>}
               </div>
             ))}
           </div>
@@ -201,39 +278,37 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
   );
 }
 
-function Fact({ label, value, mono, accent }) {
-  const color = accent === 'green' ? 'var(--green)' :
-                accent === 'red' ? 'var(--red)' :
-                accent ? 'var(--amber-2)' : 'var(--ink)';
+function CommuteBox({ label, min }) {
+  const tone = min == null ? 'default' : min <= 30 ? 'sage' : min <= 45 ? 'gold' : 'rose';
+  const col = tone === 'sage' ? 'var(--moss)' : tone === 'gold' ? 'var(--gold)' : tone === 'rose' ? 'var(--rose)' : 'var(--ink)';
+  const bg = tone === 'sage' ? 'var(--sage-soft)' : tone === 'gold' ? 'var(--gold-soft)' : tone === 'rose' ? 'var(--rose-soft)' : 'var(--paper-3)';
   return (
-    <div>
-      <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>{label}</div>
-      <div style={{ fontSize: 13, fontWeight: 500, color, marginTop: 2, fontFamily: mono ? 'IBM Plex Mono' : 'Inter' }}>{value}</div>
+    <div style={{ padding: 12, background: bg, borderRadius: 8 }}>
+      <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.5 }}>{label}</div>
+      <div className="num" style={{ fontSize: 22, fontWeight: 600, color: col, marginTop: 3 }}>
+        {min != null ? '~' + min : '—'}<span style={{ fontSize: 12, fontWeight: 500, marginLeft: 3 }}>min</span>
+      </div>
     </div>
   );
 }
 
-// Generate a one-paragraph read
 function generateRead(l) {
   const bits = [];
   if (l.fit.composite >= 85) bits.push('Strong overall fit.');
   else if (l.fit.composite >= 70) bits.push('Solid fit.');
   else if (l.fit.composite >= 55) bits.push('Marginal fit.');
   else bits.push('Low fit given your criteria.');
-
-  if (l.ffs === 'yes') bits.push('Already FFS — these almost never come to market; speed matters.');
-  else if (l.ffs === 'potential') bits.push('FFS-transition candidate given location and size.');
-
-  if (l.fellowship?.rank === 1) bits.push('Aligns with Shreya\'s #1 (Colorado/BDC).');
-  else if (l.fellowship?.rank && l.fellowship.rank < 10) bits.push(`Aligns with Shreya rank #${l.fellowship.rank}.`);
-
-  if (l.deal) {
-    if (l.deal.dscr >= 1.5) bits.push(`Debt service self-funds comfortably (${l.deal.dscr.toFixed(2)}×).`);
-    else if (l.deal.dscr < 1.25) bits.push(`DSCR tight at ${l.deal.dscr.toFixed(2)}× — negotiate price or expect lender pushback.`);
+  if (l.ffs === 'yes') bits.push('Already FFS — rare; move fast.');
+  else if (l.ffs === 'potential') bits.push('FFS-transition candidate given area.');
+  if (l.fit.geoDetail) {
+    const g = l.fit.geoDetail;
+    if (g.toPractice <= 30 && g.toShreya <= 30) bits.push(`Lives nicely in ${g.neighborhood.name} — under 30 min to both.`);
+    else if (g.toPractice > 45 || g.toShreya > 45) bits.push(`Commute pinch: ${g.neighborhood.name} is best, but one leg exceeds 45 min.`);
   }
-
-  if (l.ops && l.ops >= 5 && l.collections && l.collections / l.ops < 150000) {
-    bits.push(`Collections/op is low (${fmtMoney(l.collections/l.ops)}) — room for your implant/sedation lift.`);
+  if (l.enrich?.sedationPermit?.value === true) bits.push('Already holds a sedation permit — big unlock on your thesis.');
+  if (l.deal) {
+    if (l.deal.dscr >= 1.5) bits.push(`Debt self-funds comfortably (${l.deal.dscr.toFixed(2)}×).`);
+    else if (l.deal.dscr < 1.25) bits.push(`DSCR tight at ${l.deal.dscr.toFixed(2)}× — negotiate or expect lender pushback.`);
   }
   return bits.join(' ');
 }
