@@ -1,0 +1,18 @@
+# DigitalOcean App Platform config
+# Deploys as a static site (free tier eligible)
+name: parikh-terminal
+region: nyc
+static_sites:
+  - name: web
+    source_dir: /
+    github:
+      # Update these two after pushing to GitHub
+      repo: Unk8p/parikh-terminal
+      branch: main
+      deploy_on_push: true
+    # No build step — pure static HTML/JS
+    # output_dir defaults to source_dir
+    index_document: index.html
+    catchall_document: index.html
+    routes:
+      - path: /
