@@ -164,7 +164,7 @@ function SectionLabel({ children, count, right }) {
 }
 
 // Fact — label+value pair for detail views
-function Fact({ label, value, confidence, mono = false, accent }) {
+function Fact({ label, value, confidence, mono = false, accent, hint }) {
   const color = accent === 'sage' ? 'var(--sage)' :
                 accent === 'rose' ? 'var(--rose)' :
                 accent === 'clay' ? 'var(--clay)' :
@@ -177,6 +177,7 @@ function Fact({ label, value, confidence, mono = false, accent }) {
         <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.5 }}>
           {label}
         </span>
+        {hint && <InfoDot term={hint} />}
         {confidence && <Confidence level={confidence} />}
       </div>
       <div style={{
@@ -189,7 +190,66 @@ function Fact({ label, value, confidence, mono = false, accent }) {
   );
 }
 
+// InfoDot — tiny `?` affordance next to jargon. Click to toggle, hover to peek.
+// Looks up window.GLOSSARY[term] for the tooltip body.
+function InfoDot({ term }) {
+  const [open, setOpen] = React.useState(false);
+  const entry = (window.GLOSSARY || {})[term];
+  if (!entry) return null;
+  return (
+    <span style={{ position: 'relative', display: 'inline-flex' }}>
+      <button
+        type="button"
+        onClick={(e) => { e.stopPropagation(); setOpen(o => !o); }}
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        onBlur={() => setOpen(false)}
+        aria-label={`What is ${entry.label}?`}
+        style={{
+          width: 14, height: 14, borderRadius: '50%',
+          border: '1px solid var(--line)',
+          background: 'var(--paper)',
+          color: 'var(--ink-3)',
+          fontFamily: 'Inter', fontSize: 9, fontWeight: 700,
+          display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+          cursor: 'help', padding: 0, lineHeight: 1,
+        }}
+      >?</button>
+      {open && (
+        <div style={{
+          position: 'absolute',
+          top: 'calc(100% + 6px)', left: -4, zIndex: 20,
+          width: 280,
+          padding: '10px 12px',
+          background: 'var(--paper)',
+          border: '1px solid var(--line)',
+          borderRadius: 8,
+          boxShadow: '0 6px 20px rgba(0,0,0,0.14)',
+          textTransform: 'none', letterSpacing: 0,
+          pointerEvents: 'none',
+        }}>
+          <div style={{ fontFamily: 'Inter', fontSize: 12, fontWeight: 600, color: 'var(--ink)', marginBottom: 4 }}>
+            {entry.label}
+          </div>
+          <div style={{ fontFamily: 'Inter', fontSize: 11, color: 'var(--ink-2)', lineHeight: 1.5, fontWeight: 400 }}>
+            {entry.body}
+          </div>
+          {entry.benchmark && (
+            <div style={{
+              fontFamily: 'Inter', fontSize: 10, color: 'var(--ink-3)',
+              lineHeight: 1.5, marginTop: 6, fontStyle: 'italic',
+              paddingTop: 6, borderTop: '1px dashed var(--line)',
+            }}>
+              {entry.benchmark}
+            </div>
+          )}
+        </div>
+      )}
+    </span>
+  );
+}
+
 Object.assign(window, {
   fmtMoney, fmtMoneyFull, fmtPct,
-  Chip, Confidence, ScoreBar, ScoreRing, Toggle, Slider, SectionLabel, Fact
+  Chip, Confidence, ScoreBar, ScoreRing, Toggle, Slider, SectionLabel, Fact, InfoDot
 });

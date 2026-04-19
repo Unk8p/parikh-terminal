@@ -97,8 +97,8 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
       </SectionLabel>
       <div style={{ padding: '10px 22px 18px' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px 20px' }}>
-          <Fact label="Collections" value={fmtMoneyFull(l.collections)} mono />
-          <Fact label="Operatories" value={l.ops ?? '—'} mono />
+          <Fact label="Collections" value={fmtMoneyFull(l.collections)} mono hint="collections" />
+          <Fact label="Operatories" value={l.ops ?? '—'} mono hint="ops" />
           <Fact label="Square feet" value={l.sqft ? l.sqft.toLocaleString() : '—'} mono />
           <Fact label="Specialty" value={l.specialty} />
           <Fact label="Practice website" value={e.practiceUrl?.value
@@ -114,7 +114,8 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
             e.sedationPermit?.value === true ? 'Yes' :
             e.sedationPermit?.value === false ? 'No' : null
           } confidence={e.sedationPermit?.conf}
-             accent={e.sedationPermit?.value === true ? 'sage' : null} />
+             accent={e.sedationPermit?.value === true ? 'sage' : null}
+             hint="sedationPermit" />
         </div>
 
         {/* Procedures */}
@@ -148,11 +149,11 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
       <SectionLabel>Area & competition</SectionLabel>
       <div style={{ padding: '10px 22px 18px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px 20px' }}>
         <Fact label="Median income" value={e.medianIncome?.value ? '$' + e.medianIncome.value.toLocaleString() : null}
-          confidence={e.medianIncome?.conf} mono />
+          confidence={e.medianIncome?.conf} mono hint="medianIncome" />
         <Fact label="Population growth (5y)" value={e.populationGrowth5y?.value ? (e.populationGrowth5y.value > 0 ? '+' : '') + e.populationGrowth5y.value + '%' : null}
-          confidence={e.populationGrowth5y?.conf} mono />
+          confidence={e.populationGrowth5y?.conf} mono hint="populationGrowth" />
         <Fact label="Competing practices (3mi)" value={e.competingPractices3mi?.value}
-          confidence={e.competingPractices3mi?.conf} mono />
+          confidence={e.competingPractices3mi?.conf} mono hint="competingPractices" />
         <Fact label="First seen" value={e.firstSeen?.value} confidence={e.firstSeen?.conf} mono />
       </div>
 
@@ -175,25 +176,36 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) 
       {deal && (
         <>
           <SectionLabel right={
-            <span className="mono" style={{ fontSize: 10, fontWeight: 600, color: deal.dscr >= 1.25 ? 'var(--sage)' : 'var(--rose)' }}>
-              ● DSCR {deal.dscr >= 1.25 ? 'OK' : 'LOW'}
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5 }}>
+              <span className="mono" style={{ fontSize: 10, fontWeight: 600, color: deal.dscr >= 1.25 ? 'var(--sage)' : 'var(--rose)' }}>
+                ● DSCR {deal.dscr >= 1.25 ? 'OK' : 'LOW'}
+              </span>
+              <InfoDot term="dscr" />
             </span>
-          }>SBA 7(a) model</SectionLabel>
+          }>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+              SBA 7(a) model
+              <InfoDot term="sba" />
+            </span>
+          </SectionLabel>
           <div style={{ padding: '10px 22px 18px' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px 20px', marginBottom: 14 }}>
               <Fact label="Purchase price" value={fmtMoneyFull(deal.price)} mono />
-              <Fact label="Loan" value={fmtMoneyFull(deal.loanAmt)} mono />
-              <Fact label="Monthly debt" value={fmtMoneyFull(deal.monthlyPay)} mono />
+              <Fact label="Loan" value={fmtMoneyFull(deal.loanAmt)} mono hint="loanAmt" />
+              <Fact label="Monthly debt" value={fmtMoneyFull(deal.monthlyPay)} mono hint="monthlyPay" />
               <Fact label="Annual debt" value={fmtMoneyFull(deal.annualDebt)} mono />
-              <Fact label="Base EBITDA" value={fmtMoneyFull(deal.baseEbitda)} mono />
-              <Fact label="Your upside" value={'+' + fmtMoneyFull(deal.upsideEbitda)} mono accent="sage" />
+              <Fact label="Base EBITDA" value={fmtMoneyFull(deal.baseEbitda)} mono hint="ebitda" />
+              <Fact label="Your upside" value={'+' + fmtMoneyFull(deal.upsideEbitda)} mono accent="sage" hint="upsideEbitda" />
               <Fact label="Proj. EBITDA" value={fmtMoneyFull(deal.projEbitda)} mono />
               <Fact label="DSCR" value={deal.dscr.toFixed(2) + '×'} mono
-                accent={deal.dscr >= 1.25 ? 'sage' : 'rose'} />
+                accent={deal.dscr >= 1.25 ? 'sage' : 'rose'} hint="dscr" />
             </div>
             <div style={{ padding: 14, background: 'var(--sage-soft)', borderRadius: 8 }}>
-              <div className="mono" style={{ fontSize: 10, color: 'var(--moss)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
-                Projected take-home (post-debt, pre-tax)
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <span className="mono" style={{ fontSize: 10, color: 'var(--moss)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
+                  Projected take-home (post-debt, pre-tax)
+                </span>
+                <InfoDot term="takeHome" />
               </div>
               <div className="num" style={{ fontSize: 26, color: deal.takeHome > 0 ? 'var(--moss)' : 'var(--rose)', fontWeight: 600, marginTop: 4 }}>
                 {fmtMoneyFull(deal.takeHome)}
