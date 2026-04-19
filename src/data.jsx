@@ -22,7 +22,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 2,
@@ -45,7 +113,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 3,
@@ -68,7 +204,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 4,
@@ -91,7 +295,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 5,
@@ -114,7 +386,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 6,
@@ -137,7 +477,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 7,
@@ -160,7 +568,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 8,
@@ -185,7 +661,75 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "CHART_SALE"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 9,
@@ -211,7 +755,75 @@ window.PARIKH_DATA = {
       "flags": [
         "TOO_LARGE",
         "LOW_SCORE"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 10,
@@ -234,7 +846,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 11,
@@ -257,7 +937,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 12,
@@ -280,7 +1028,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 13,
@@ -305,7 +1121,75 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OVER_SBA_CAP"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85853,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 28,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 14,
@@ -328,7 +1212,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 90990,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 0.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 15,
@@ -351,7 +1303,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 82786,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 16,
@@ -374,7 +1394,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 79567,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 17,
@@ -397,7 +1485,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 95064,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 7.2,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 18,
@@ -420,7 +1576,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 106014,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 19,
@@ -443,7 +1667,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 90273,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -0.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 20,
@@ -466,7 +1758,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 90273,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -0.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 21,
@@ -489,7 +1849,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 124617,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -0.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 22,
@@ -512,7 +1940,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 105819,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 10.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 23,
@@ -535,7 +2031,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 24,
@@ -558,7 +2122,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 89720,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 7.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 20,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 25,
@@ -581,7 +2213,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 154509,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 38.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 26,
@@ -604,7 +2304,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 80243,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 0.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 30,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 27,
@@ -627,7 +2395,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 80243,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 0.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 30,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 28,
@@ -650,7 +2486,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 79026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 29,
@@ -673,7 +2577,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 79026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 30,
@@ -696,7 +2668,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 79026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 31,
@@ -719,7 +2759,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 79026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 32,
@@ -742,7 +2850,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 52794,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 260.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 33,
@@ -765,7 +2941,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 52794,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 260.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 34,
@@ -788,7 +3032,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 78977,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 35,
@@ -811,7 +3123,75 @@ window.PARIKH_DATA = {
         "city": "Aurora/Denver CO",
         "notes": "Shreya's #1 — Barbara Davis Center at CU Anschutz"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.colorado.gov/dora/licensing/Lookup/LicenseLookup.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 36,
@@ -834,7 +3214,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 89871,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 12.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 37,
@@ -857,7 +3305,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 100034,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 7.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 38,
@@ -880,7 +3396,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116764,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 39,
@@ -903,7 +3487,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 83732,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 9.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 40,
@@ -926,7 +3578,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 45319,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 15.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 41,
@@ -949,7 +3669,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 50618,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 9.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 42,
@@ -972,7 +3760,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 50618,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 9.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 43,
@@ -995,7 +3851,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 73415,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 44,
@@ -1018,7 +3942,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 54898,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.2,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 45,
@@ -1041,7 +4033,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 46795,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 11.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 46,
@@ -1064,7 +4124,75 @@ window.PARIKH_DATA = {
         "city": "Orlando FL",
         "notes": "Shreya's #3 — Nemours (current PGY2 site, familiar)"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://appsmqa.doh.state.fl.us/MQASearchServices/HealthCareProviders"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.floridasdentistry.gov/licensure/sedation-permits/"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 76558,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 0.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "BizBuySell",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 47,
@@ -1087,7 +4215,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 71328,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 3,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 48,
@@ -1110,7 +4306,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 71328,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 3,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 49,
@@ -1133,7 +4397,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 71328,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 3,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 50,
@@ -1156,7 +4488,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 71328,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 3,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 51,
@@ -1179,7 +4579,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 71328,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 3,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 52,
@@ -1202,7 +4670,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 106592,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 14.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 12,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 53,
@@ -1225,7 +4761,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 62688,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 13.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 54,
@@ -1248,7 +4852,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 62688,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 13.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 55,
@@ -1271,7 +4943,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 58110,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 15.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 56,
@@ -1294,7 +5034,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 64581,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 57,
@@ -1317,7 +5125,75 @@ window.PARIKH_DATA = {
         "city": "Nashville TN",
         "notes": "Shreya's #5 — Vanderbilt"
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://apps.tn.gov/hlrs/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.tn.gov/health/health-program-areas/health-professional-boards/dentistry-board/sedation-permits.html"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 58,
@@ -1342,7 +5218,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 59,
@@ -1367,7 +5310,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 60,
@@ -1392,7 +5402,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 61,
@@ -1417,7 +5494,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 62,
@@ -1442,7 +5586,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 63,
@@ -1467,7 +5678,100 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": [
+            {
+              "title": "Landslide prompts evacuation of Southwest Portland building - Yahoo",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ1poRmpRQld5N0xtZnJ3QUY3SVRKSG1sZkRtXy1GOFNvX21qbThXUFFVOWNZd0hYNEJWTkd5VXRISEZOa2hyeDl0bjFJdmRfZ0dSZ2c3X25hSWFocnktdDU0c3p5LUN1SDZ5YkpZMFdUd2E2WHpWYVlXYnMzR1V0ZEQ1SDV2a25wOHFzMDZBSGw2LVNiNVVrQ0xxdm9mZE0?oc=5",
+              "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+            },
+            {
+              "title": "Largest new office lease signed in Portland with BerryDunn expanded headquarters - Mainebiz",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcy01ZjBZNFlrMHl3SVZXMHRPLUNfY2tfTnQzYlhEeUtHS2J5V3ZDWGFMcHBrQV8zUjZkUUl5dktJVEVtUFVBX1hFSjZYNFRFM29SaEVCRjdFNmtSTUVqQ3AtRlgxWENGbGMyaDFLWjFXNzZSTEhqMV8wc2d0aXM4cVJFQ3lJZGVqemx4dGczaWxkSmlGa1ZPSUtSTzIybkRQcGRFWmFpcEpsb3NFUzRj?oc=5",
+              "date": "Mon, 27 Jul 2020 07:00:00 GMT"
+            },
+            {
+              "title": "Oregon Community Schools Model Shows Staying Power - Education Week",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRVdVM1UwQng3Q1F2dTFMTmtpQy1pTjhTM1NTNlV2YTAwMmd6T0VMcGtUSktQRHFDcklrZkFCSWticURIUmxOMDZwTTZ4RnYzR3RZSWUtMXZiaE5aWWdLdUIyS1FGeWNDUWo3MHh6RUp4NFUtOE9UVVRLclRWX0tHakh4REFad1F2ZW9ocWtzQ2R1aHdVeU1B?oc=5",
+              "date": "Tue, 13 Mar 2012 07:00:00 GMT"
+            },
+            {
+              "title": "Shake Shack among businesses planned for new Hillsboro retail development - The Business Journals",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2ZGUEFXeEJWUHlmQllTVGMwTk1ZNE95bTgwcGc0THpkSmVSRlVRbjV3WUJlekNHM0NGang4WE9EdHp3TGtqY1owSlRNMGtRRUhSeFA0aEJpLUNVWDZCR05GRG14MUptZVNIM3lwcVJNY1RTZHZfNkh1SnZIamdsMnRtSlMwUHhkRllnYmFkdUxNRl9Cd242eWhJLU4?oc=5",
+              "date": "Mon, 04 Dec 2023 08:00:00 GMT"
+            },
+            {
+              "title": "Jerome Kersey dies at 52; former NBA star and onetime Laker - Los Angeles Times",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaXRLbzJlQ1ZfNlZmMHQycjcwNmMta0V4U3FFeU9tZlhlMzVPVkdPQk9sWlh1eEYtamQzSUZLX0hramhPOU1WdndYN2pfUTBnOFp2TEZ3RWJIV3BxR09HNTdxZVZNWUx6a3p1MGduSEotYzVZU2xGNWUwQ05hMEVOelJ1dm1Edk0?oc=5",
+              "date": "Thu, 19 Feb 2015 08:00:00 GMT"
+            }
+          ],
+          "conf": "inferred"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 64,
@@ -1492,7 +5796,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 65,
@@ -1517,7 +5888,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 85876,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 66,
@@ -1542,7 +5980,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 98891,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 67,
@@ -1567,7 +6072,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 69437,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 68,
@@ -1592,7 +6164,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 88899,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 1.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 69,
@@ -1617,7 +6256,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 65318,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 70,
@@ -1642,7 +6348,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 82671,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 14.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 71,
@@ -1667,7 +6440,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 61481,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 8.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 72,
@@ -1692,7 +6532,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 127252,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 5.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 73,
@@ -1717,7 +6624,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 57568,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 8.1,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 74,
@@ -1742,7 +6716,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "http://www.oregon.gov/dentistry/Pages/Licensee-Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 69463,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 5.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 75,
@@ -1765,7 +6806,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 125317,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 9.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 29,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "1st Med Transitions",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": "(800) 815-0590",
+          "conf": "verified"
+        },
+        "brokerEmail": {
+          "value": "info@1stMedTransitions.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 76,
@@ -1788,7 +6897,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 78631,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 2,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 77,
@@ -1811,7 +6988,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 78631,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 2,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 78,
@@ -1834,7 +7079,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 78631,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 2,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 79,
@@ -1857,7 +7170,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 78631,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": 2,
+          "conf": "verified"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 80,
@@ -1880,7 +7261,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 81,
@@ -1903,7 +7352,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 82,
@@ -1926,7 +7443,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 74710,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 10.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 83,
@@ -1949,7 +7534,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 74710,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 10.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 84,
@@ -1972,7 +7625,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 85,
@@ -1998,7 +7719,75 @@ window.PARIKH_DATA = {
       "flags": [
         "TOO_LARGE",
         "LOW_SCORE"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 86,
@@ -2021,7 +7810,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 87,
@@ -2044,7 +7901,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 88,
@@ -2067,7 +7992,75 @@ window.PARIKH_DATA = {
         "city": "Cary/Raleigh NC",
         "notes": "Backup geography if she adds Duke/UNC late. Current LOI market."
       },
-      "flags": []
+      "flags": [],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://portal.ncdentalboard.org/verification/Search.aspx"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://www.ncdentalboard.org/sedation.aspx"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 47715,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 5.9,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 89,
@@ -2092,7 +8085,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 90,
@@ -2117,7 +8177,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 91,
@@ -2142,7 +8269,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 92,
@@ -2167,7 +8361,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 93,
@@ -2192,7 +8453,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 94,
@@ -2217,7 +8545,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 95,
@@ -2242,7 +8637,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 96,
@@ -2267,7 +8729,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 116068,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.7,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 97,
@@ -2292,7 +8821,100 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": [
+            {
+              "title": "Kids can get dental, medical care at this local school without parents taking off work - Tacoma News Tribune",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNmh2bmRVSndDVlJBdHJJYkRuRXd3ZkNTMmt0UVdUdFlCcjRUbVlmaEFaMWtyb3BUbzVYRVlVWEhvVFVqUlNHeDVBclBST1ZiWWMxRWFWTHNQODhqNzVxdlNRSy1haW9NVXV5bU9wZUc5bTBvYW5SV2p4ODdjemJUbTRNd1diSkMzZnlDclV5TThiUThxV3FhUFJZT3cxdw?oc=5",
+              "date": "Tue, 31 Oct 2023 07:00:00 GMT"
+            },
+            {
+              "title": "23,000 lost power in the Puyallup area Wednesday morning. What happened? - Yahoo",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1o3bEhYOFN5WjBzbFlXTEJlWmlpTC1ndGxUZWV2R29ETWdQdVRNMS1qcXF6c19yejdVZHVKeGJaYUVXT0Q1YjRYYmdDRlpFVnNXYzZvZGdPak5zVXpfazBvVUdLbmVpSml6OFd0TUg0V19kUTYteF9RM3AxMkNlRzBqUEhidGM?oc=5",
+              "date": "Wed, 11 Feb 2026 08:00:00 GMT"
+            },
+            {
+              "title": "Pierce County News Briefs - TacomaWeekly",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qOUg1QklsandYRGVxc1ZqV2JjRHNWZXhkOTlFUGZ4N2FMTXhWbmd5ejc4c2RIdnRFLUpKalNPVnJnWUFXUGRjVWtNZWplYVVpWkZVNlA4Y0R5bjhZcm9LMGtxTUVqdHZrSko4Q3VVUHFvaFE?oc=5",
+              "date": "Wed, 18 Feb 2026 08:00:00 GMT"
+            },
+            {
+              "title": "Best of the South Sound: 2025 - southsoundmag.com",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdG9CTjltR1VrX2NhNU92RjZuSWxvbmZ5cUh3WDl6bWx3Mms4T0tKSjRFNjRWR3llMnItXzhfTFNEVmJpcnRIbUNNQlg4QmRoYjJQVk5hd0U4MmtyUVJoSG12Zk5EXzdVLTJhdE16U3psT1lvdWdHdm1sbmg5anRjZWlaOG5aenRiMURKbUFNY09OeVR5Ty1wejNoLUlNLXBSZ2o1azlsbVE0NHRkWjFkVmZrWEJ2Yi14Zkh1RzNWVFpZYU9GTkxF?oc=5",
+              "date": "Thu, 01 May 2025 07:00:00 GMT"
+            },
+            {
+              "title": "Schuylkill County Obituaries for August 10, 2023 - Skook News",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFNrb2E5XzdJMlVTR0N4MXhFeE5wMEw3MTI5aWRhTEZvaUpGTHdUOURFR0p2blpMeGdXQmJfTWdYMzhoMUZIZjJDTk1qNGYwQTVMNm5JeFpmZkdBbTFmMTVpMGdZd1NIaDlrc2wxNzcyOS0tOTBtRWNWekJuaEUxVTdyN1owWFU3?oc=5",
+              "date": "Thu, 10 Aug 2023 07:00:00 GMT"
+            }
+          ],
+          "conf": "inferred"
+        },
+        "medianIncome": {
+          "value": 78091,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -16.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 98,
@@ -2317,7 +8939,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 73851,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 10.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 99,
@@ -2342,7 +9031,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 73851,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 10.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 100,
@@ -2367,7 +9123,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 64026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 7.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 101,
@@ -2392,7 +9215,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 64026,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 7.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 102,
@@ -2417,7 +9307,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://fortress.wa.gov/doh/providercredentialsearch/"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 110057,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 103,
@@ -2442,7 +9399,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 49191,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 104,
@@ -2467,7 +9491,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 49191,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 105,
@@ -2492,7 +9583,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 49191,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 106,
@@ -2517,7 +9675,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 49191,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 3.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 107,
@@ -2542,7 +9767,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 49917,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -84.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 108,
@@ -2567,7 +9859,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 144705,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 4.5,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 109,
@@ -2592,7 +9951,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 62994,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 41583.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 110,
@@ -2617,7 +10043,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 62994,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 41583.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 111,
@@ -2642,7 +10135,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 41443,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -2.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 112,
@@ -2667,7 +10227,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 113,
@@ -2694,7 +10321,74 @@ window.PARIKH_DATA = {
         "SPECIALTY_MISMATCH",
         "LOW_SCORE",
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 114,
@@ -2719,7 +10413,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://elicense.ohio.gov/oh_verifylicense"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 67601,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -0.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 115,
@@ -2744,7 +10505,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 114230,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -94.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 116,
@@ -2769,7 +10597,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 114230,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": -94.6,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 117,
@@ -2794,7 +10689,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 118,
@@ -2819,7 +10781,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 119,
@@ -2844,7 +10873,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 120,
@@ -2869,7 +10965,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 121,
@@ -2894,7 +11057,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 122,
@@ -2919,7 +11149,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "Provide (Fifth Third Bank)",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": "hello@getprovide.com",
+          "conf": "verified"
+        }
+      }
     },
     {
       "id": 123,
@@ -2944,7 +11241,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 107905,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 6.0,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 124,
@@ -2969,7 +11333,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 115120,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 2.3,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 125,
@@ -2994,7 +11425,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 97500,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 1.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 126,
@@ -3019,7 +11517,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 104697,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 13.8,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 127,
@@ -3044,7 +11609,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": 64178,
+          "conf": "verified"
+        },
+        "populationGrowth5y": {
+          "value": 0.4,
+          "conf": "verified"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 128,
@@ -3069,7 +11701,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 129,
@@ -3094,7 +11793,74 @@ window.PARIKH_DATA = {
       },
       "flags": [
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     },
     {
       "id": 130,
@@ -3121,7 +11887,74 @@ window.PARIKH_DATA = {
         "CHART_SALE",
         "LOW_SCORE",
         "OFF_SHREYA_LIST"
-      ]
+      ],
+      "enrich": {
+        "practiceUrl": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "ownerName": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "licenseNumber": {
+          "value": null,
+          "conf": "unknown",
+          "lookupUrl": "https://renew.pr.mo.gov/licensee-search.asp"
+        },
+        "yearsLicensed": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "sedationPermit": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "googleRating": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "proceduresOffered": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "recentHeadlines": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "medianIncome": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "populationGrowth5y": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "competingPractices3mi": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "firstSeen": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "lastChecked": {
+          "value": "2026-04-19T17:40:43+00:00",
+          "conf": "verified"
+        },
+        "brokerName": {
+          "value": "BizBuySell",
+          "conf": "verified"
+        },
+        "brokerPhone": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        }
+      }
     }
   ],
   "fellowshipMap": {
@@ -3174,7 +12007,7 @@ window.PARIKH_DATA = {
       "notes": "Not on Shreya's rank list"
     }
   },
-  "generated": "2026-04-19T13:50:13.353Z"
+  "generated": "2026-04-19T17:47:21+00:00Z"
 };
 window.PARIKH_BROKERS = [
   {
