@@ -2,7 +2,7 @@
 
 const { useState: useStateD } = React;
 
-function Detail({ listing, onClose, outreach, setOutreach, brokers }) {
+function Detail({ listing, onClose, outreach, setOutreach, brokers, isMobile }) {
   if (!listing) return null;
   const l = listing;
   const fit = l.fit;
@@ -27,11 +27,21 @@ function Detail({ listing, onClose, outreach, setOutreach, brokers }) {
     return false;
   }).slice(0, 6);
 
+  const mobileStyle = isMobile ? {
+    position: 'fixed',
+    inset: 0,
+    width: '100%',
+    height: '100vh',
+    zIndex: 110,
+    borderLeft: 'none'
+  } : {};
+
   return (
     <aside style={{
       width: 440, height: '100vh', overflowY: 'auto',
       background: 'var(--bg-1)', borderLeft: '1px solid var(--line)',
-      flexShrink: 0
+      flexShrink: 0,
+      ...mobileStyle
     }}>
       {/* Header */}
       <div style={{ padding: '16px 18px 14px', borderBottom: '1px solid var(--line)', position: 'sticky', top: 0, background: 'var(--bg-1)', zIndex: 5 }}>

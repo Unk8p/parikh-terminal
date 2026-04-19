@@ -2,7 +2,7 @@
 
 const { useMemo: useMemoT, useState: useStateT } = React;
 
-function Table({ state, listings, onSelect, selected, outreach }) {
+function Table({ state, listings, onSelect, selected, outreach, isMobile }) {
   const [sortBy, setSortBy] = useStateT('fit');
   const [sortDir, setSortDir] = useStateT('desc');
   const [query, setQuery] = useStateT('');
@@ -56,37 +56,104 @@ function Table({ state, listings, onSelect, selected, outreach }) {
   );
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', flex: 1, minWidth: 0 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: isMobile ? 'auto' : '100vh', flex: 1, minWidth: 0 }}>
       {/* Top bar */}
       <div style={{
-        display: 'flex', alignItems: 'center', gap: 12,
-        padding: '10px 16px', borderBottom: '1px solid var(--line)',
-        background: 'var(--bg-1)', flexShrink: 0, height: 52
+        display: 'flex', alignItems: 'center', gap: 10,
+        padding: isMobile ? '10px 12px' : '10px 16px',
+        borderBottom: '1px solid var(--line)',
+        background: 'var(--bg-1)', flexShrink: 0,
+        height: isMobile ? 'auto' : 52,
+        flexWrap: isMobile ? 'wrap' : 'nowrap'
       }}>
-        <div style={{ flex: 1, position: 'relative', maxWidth: 420 }}>
+        <div style={{ flex: 1, position: 'relative', maxWidth: isMobile ? '100%' : 420, minWidth: isMobile ? '100%' : 0 }}>
           <input type="text" placeholder="Search practice, city, notes…"
             value={query} onChange={(e) => setQuery(e.target.value)}
-            style={{ padding: '6px 10px 6px 28px', background: 'var(--bg-2)', border: '1px solid var(--line)' }} />
+            style={{ padding: '6px 10px 6px 28px', background: 'var(--bg-2)', border: '1px solid var(--line)', width: '100%' }} />
           <span style={{ position: 'absolute', left: 9, top: 7, color: 'var(--ink-4)', fontSize: 14 }}>⌕</span>
         </div>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 14 }}>
-          <div>
-            <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>Showing </span>
-            <span className="mono" style={{ fontSize: 13, color: 'var(--amber-2)', fontWeight: 600 }}>{sorted.length}</span>
-            <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}> of 130</span>
+        {!isMobile && (
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 14 }}>
+            <div>
+              <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>Showing </span>
+              <span className="mono" style={{ fontSize: 13, color: 'var(--amber-2)', fontWeight: 600 }}>{sorted.length}</span>
+              <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}> of 130</span>
+            </div>
+            <div className="mono" style={{ fontSize: 11, color: 'var(--ink-4)' }}>
+              {state.scenario === 'ranked' && 'Ranked scenario'}
+              {state.scenario === 'colorado' && 'Colorado match'}
+              {state.scenario === 'orlando' && 'Nemours match'}
+              {state.scenario === 'nc' && 'Duke match'}
+              {state.scenario === 'nashville' && 'Vanderbilt match'}
+              {state.scenario === 'unranked' && 'All markets'}
+            </div>
           </div>
-          <div className="mono" style={{ fontSize: 11, color: 'var(--ink-4)' }}>
-            {state.scenario === 'ranked' && 'Ranked scenario'}
-            {state.scenario === 'colorado' && 'Colorado match'}
-            {state.scenario === 'orlando' && 'Nemours match'}
-            {state.scenario === 'nc' && 'Duke match'}
-            {state.scenario === 'nashville' && 'Vanderbilt match'}
-            {state.scenario === 'unranked' && 'All markets'}
-          </div>
-        </div>
+        )}
       </div>
 
-      {/* Table scroll area */}
+      {/* Mobile: card list */}
+      {isMobile ? (
+        <div style={{ background: 'var(--bg)' }}>
+          {sorted.map(l => {
+            const isSel = selected?.id === l.id;
+            const out = outreach[l.id];
+            return (
+              <div key={l.id}
+                onClick={() => onSelect(l)}
+                style={{
+                  padding: '12px 14px',
+                  borderBottom: '1px solid var(--line)',
+                  borderLeft: isSel ? '2px solid var(--amber)' : '2px solid transparent',
+                  background: isSel ? 'var(--bg-2)' : 'transparent',
+                  cursor: 'pointer'
+                }}>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: 14, color: 'var(--ink)', fontWeight: 500 }}>{l.name}</div>
+                    <div className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>
+                      {l.city} · {shortMarket(l.market)}
+                    </div>
+                  </div>
+                  <div style={{ flexShrink: 0, textAlign: 'right' }}>
+                    <ScoreBar value={l.fit.composite} width={60} />
+                  </div>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 8, flexWrap: 'wrap' }}>
+                  <span className="mono" style={{ fontSize: 12, color: 'var(--ink)', fontWeight: 500 }}>
+                    {fmtMoney(l.collections)}
+                  </span>
+                  <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+                    · {l.ops ?? '—'} ops
+                  </span>
+                  {l.deal?.dscr != null && (
+                    <span className="mono" style={{
+                      fontSize: 11,
+                      color: l.deal.dscr >= 1.25 ? 'var(--green)' : (l.deal.dscr >= 1.0 ? 'var(--amber-2)' : 'var(--red)')
+                    }}>· DSCR {l.deal.dscr.toFixed(2)}</span>
+                  )}
+                  {l.ffs === 'yes' && <Chip tone="amber" size="xs">FFS</Chip>}
+                  {l.ffs === 'potential' && <Chip tone="blue" size="xs">POT.</Chip>}
+                  {l.fellowship?.rank && l.fellowship.rank < 10 && (
+                    <span className="mono" style={{ fontSize: 10, color: 'var(--amber-dim)', textTransform: 'uppercase' }}>
+                      Shreya #{l.fellowship.rank}
+                    </span>
+                  )}
+                  {out?.status && out.status !== 'Not Started' && (
+                    <Chip tone={out.status === 'Contacted' ? 'blue' : out.status === 'LOI' ? 'amber' : out.status === 'Pass' ? 'ghost' : 'green'} size="xs">{out.status}</Chip>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+          {sorted.length === 0 && (
+            <div style={{ padding: 40, textAlign: 'center', color: 'var(--ink-3)' }}>
+              <div className="serif" style={{ fontSize: 20, marginBottom: 4 }}>Nothing matches.</div>
+              <div className="mono" style={{ fontSize: 11 }}>Relax your reality filters or change the scenario.</div>
+            </div>
+          )}
+        </div>
+      ) : (
+      /* Table scroll area */
       <div style={{ flex: 1, overflow: 'auto', background: 'var(--bg)' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
           <thead>
@@ -175,6 +242,7 @@ function Table({ state, listings, onSelect, selected, outreach }) {
           </tbody>
         </table>
       </div>
+      )}
     </div>
   );
 }

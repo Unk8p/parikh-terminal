@@ -2,30 +2,50 @@
 
 const { useState } = React;
 
-function Sidebar({ state, setState, counts }) {
+function Sidebar({ state, setState, counts, isMobile, mobileOpen, onMobileClose }) {
   const s = state;
   const up = (patch) => setState({ ...s, ...patch });
   const upRules = (patch) => setState({ ...s, rules: { ...s.rules, ...patch } });
   const upWeights = (patch) => setState({ ...s, weights: { ...s.weights, ...patch } });
   const upAssump = (patch) => setState({ ...s, assumptions: { ...s.assumptions, ...patch } });
 
+  const mobileStyle = isMobile ? {
+    position: 'fixed',
+    top: 0, left: 0, bottom: 0,
+    width: 'min(320px, 86vw)',
+    height: '100vh',
+    zIndex: 100,
+    transform: mobileOpen ? 'translateX(0)' : 'translateX(-100%)',
+    transition: 'transform 0.22s ease-out',
+    boxShadow: mobileOpen ? '2px 0 24px rgba(0,0,0,0.5)' : 'none'
+  } : {};
+
   return (
     <aside style={{
       width: 280, height: '100vh', overflowY: 'auto',
       background: 'var(--bg-1)', borderRight: '1px solid var(--line)',
-      display: 'flex', flexDirection: 'column', flexShrink: 0
+      display: 'flex', flexDirection: 'column', flexShrink: 0,
+      ...mobileStyle
     }}>
       {/* Brand */}
-      <div style={{ padding: '16px 14px 12px', borderBottom: '1px solid var(--line)' }}>
-        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: 1.5, textTransform: 'uppercase' }}>
-          PARIKH / ACQUISITION
+      <div style={{ padding: '16px 14px 12px', borderBottom: '1px solid var(--line)', display: 'flex', alignItems: 'flex-start', gap: 10 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: 1.5, textTransform: 'uppercase' }}>
+            PARIKH / ACQUISITION
+          </div>
+          <div className="serif" style={{ fontSize: 22, color: 'var(--ink)', marginTop: 2, lineHeight: 1.1 }}>
+            Practice terminal
+          </div>
+          <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 6 }}>
+            130 listings · live filter
+          </div>
         </div>
-        <div className="serif" style={{ fontSize: 22, color: 'var(--ink)', marginTop: 2, lineHeight: 1.1 }}>
-          Practice terminal
-        </div>
-        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 6 }}>
-          130 listings · live filter
-        </div>
+        {isMobile && (
+          <button onClick={onMobileClose} aria-label="Close filters" style={{
+            width: 28, height: 28, color: 'var(--ink-3)', fontSize: 18, lineHeight: 1,
+            border: '1px solid var(--line)', flexShrink: 0
+          }}>×</button>
+        )}
       </div>
 
       {/* Fellowship scenario */}

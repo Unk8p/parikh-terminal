@@ -50,6 +50,75 @@
   ::-webkit-scrollbar-thumb:hover { background: var(--line-2); }
 
   #root { height: 100vh; width: 100vw; }
+
+  /* --- Mobile --- */
+  @media (max-width: 768px) {
+    html, body {
+      overflow: auto;
+      height: auto;
+      min-height: 100vh;
+      font-size: 14px;
+    }
+    #root { height: auto; width: 100%; min-height: 100vh; }
+    ::-webkit-scrollbar { width: 0; height: 0; }
+  }
+
+  /* Mobile top bar — only visible on small screens */
+  .mobile-topbar { display: none; }
+  @media (max-width: 768px) {
+    .mobile-topbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: var(--bg-1);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .mobile-topbar__brand {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-size: 18px;
+      color: var(--ink);
+      flex: 1;
+      line-height: 1;
+    }
+    .mobile-topbar__tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      color: var(--ink-4);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+    .mobile-topbar__btn {
+      padding: 7px 11px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--ink-2);
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+    .mobile-topbar__btn--active {
+      color: var(--amber-2);
+      border-color: var(--amber-dim);
+    }
+  }
+
+  /* Backdrop for mobile overlays */
+  .mobile-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 90;
+  }
+  @media (max-width: 768px) {
+    .mobile-backdrop.open { display: block; }
+  }
 </style>
 
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>

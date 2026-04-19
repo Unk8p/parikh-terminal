@@ -2,6 +2,18 @@
 
 const { useState: useStateA, useMemo: useMemoA, useEffect: useEffectA } = React;
 
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useStateA(() =>
+    typeof window !== 'undefined' ? window.innerWidth < 768 : false
+  );
+  useEffectA(() => {
+    const onResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+  return isMobile;
+}
+
 // Rank scenarios override Shreya's actual rank list
 const SCENARIO_RANKS = {
   ranked: { 'Denver, CO': 1, 'NC Triangle': 2, 'Orlando, FL': 3, 'Nashville, TN': 5 },
@@ -36,6 +48,8 @@ function App() {
     return DEFAULT_STATE;
   });
   const [selected, setSelected] = useStateA(null);
+  const [sidebarOpen, setSidebarOpen] = useStateA(false);
+  const isMobile = useIsMobile();
   const [outreach, setOutreach] = useStateA(() => {
     try {
       const s = localStorage.getItem('parikh_outreach_v2');
@@ -90,10 +104,23 @@ function App() {
 
   // Keyboard: escape to close
   useEffectA(() => {
-    const h = (e) => { if (e.key === 'Escape') setSelected(null); };
+    const h = (e) => {
+      if (e.key === 'Escape') {
+        if (sidebarOpen) setSidebarOpen(false);
+        else setSelected(null);
+      }
+    };
     window.addEventListener('keydown', h);
     return () => window.removeEventListener('keydown', h);
-  }, []);
+  }, [sidebarOpen]);
+
+  // Lock background scroll when mobile overlays are open
+  useEffectA(() => {
+    if (!isMobile) return;
+    const overlay = sidebarOpen || !!currentSelected;
+    document.body.style.overflow = overlay ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [isMobile, sidebarOpen, selected]);
 
   const counts = { shown: shown.length, total: totalCount };
 
@@ -105,6 +132,50 @@ function App() {
     const outreachActive = Object.values(outreach).filter(o => o.status && o.status !== 'Not Started' && o.status !== 'Pass').length;
     return { strong: withFit.length, ffs: ffsCount, dscrOk, outreachActive };
   }, [shown, outreach]);
+
+  if (isMobile) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%' }}>
+        <div className="mobile-topbar">
+          <button className="mobile-topbar__btn"
+            onClick={() => setSidebarOpen(true)}
+            aria-label="Open filters">
+            ☰ Filters
+          </button>
+          <div className="mobile-topbar__brand">
+            Practice terminal
+            <div className="mobile-topbar__tag">
+              {counts.shown}/{counts.total} · {state.scenario}
+            </div>
+          </div>
+        </div>
+
+        <StatsBar stats={stats} isMobile />
+
+        <div style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
+          <Table state={state} listings={shown} onSelect={setSelected} selected={currentSelected} outreach={outreach} isMobile />
+        </div>
+
+        {/* Sidebar drawer */}
+        <div className={'mobile-backdrop' + (sidebarOpen ? ' open' : '')}
+          onClick={() => setSidebarOpen(false)} />
+        <Sidebar state={state} setState={setState} counts={counts}
+          isMobile mobileOpen={sidebarOpen} onMobileClose={() => setSidebarOpen(false)} />
+
+        {/* Detail full-screen overlay */}
+        {currentSelected && (
+          <Detail
+            listing={currentSelected}
+            onClose={() => setSelected(null)}
+            outreach={outreach}
+            setOutreach={setOutreach}
+            brokers={brokers}
+            isMobile
+          />
+        )}
+      </div>
+    );
+  }
 
   return (
     <div style={{ display: 'flex', height: '100vh', width: '100vw' }}>
@@ -128,32 +199,45 @@ function App() {
   );
 }
 
-function StatsBar({ stats }) {
+function StatsBar({ stats, isMobile }) {
   const Stat = ({ label, value, accent }) => (
-    <div style={{ display: 'flex', flexDirection: 'column', paddingRight: 24, borderRight: '1px solid var(--line)', marginRight: 24 }}>
-      <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>{label}</span>
-      <span className="mono" style={{ fontSize: 18, color: accent ? 'var(--amber-2)' : 'var(--ink)', fontWeight: 600, marginTop: 1 }}>{value}</span>
+    <div style={{
+      display: 'flex', flexDirection: 'column',
+      paddingRight: isMobile ? 12 : 24,
+      borderRight: '1px solid var(--line)',
+      marginRight: isMobile ? 12 : 24,
+      flexShrink: 0
+    }}>
+      <span className="mono" style={{ fontSize: isMobile ? 9 : 10, color: 'var(--ink-3)', textTransform: 'uppercase', letterSpacing: 0.6 }}>{label}</span>
+      <span className="mono" style={{ fontSize: isMobile ? 15 : 18, color: accent ? 'var(--amber-2)' : 'var(--ink)', fontWeight: 600, marginTop: 1 }}>{value}</span>
     </div>
   );
   return (
     <div style={{
       display: 'flex', alignItems: 'center',
-      padding: '12px 20px', background: 'var(--bg)',
-      borderBottom: '1px solid var(--line)', flexShrink: 0
+      padding: isMobile ? '10px 14px' : '12px 20px',
+      background: 'var(--bg)',
+      borderBottom: '1px solid var(--line)', flexShrink: 0,
+      overflowX: isMobile ? 'auto' : 'visible',
+      whiteSpace: isMobile ? 'nowrap' : 'normal'
     }}>
-      <Stat label="Strong fit (80+)" value={stats.strong} accent />
-      <Stat label="All-FFS listings" value={stats.ffs} />
-      <Stat label="DSCR ≥ 1.25×" value={stats.dscrOk} />
-      <Stat label="Active outreach" value={stats.outreachActive} />
-      <div style={{ flex: 1 }} />
-      <div style={{ textAlign: 'right' }}>
-        <div className="serif" style={{ fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.1 }}>
-          The best practice is the one you can actually own.
-        </div>
-        <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 2, textTransform: 'uppercase', letterSpacing: 0.6 }}>
-          — filter ruthlessly
-        </div>
-      </div>
+      <Stat label={isMobile ? 'Fit 80+' : 'Strong fit (80+)'} value={stats.strong} accent />
+      <Stat label={isMobile ? 'FFS' : 'All-FFS listings'} value={stats.ffs} />
+      <Stat label={isMobile ? 'DSCR≥1.25' : 'DSCR ≥ 1.25×'} value={stats.dscrOk} />
+      <Stat label={isMobile ? 'Active' : 'Active outreach'} value={stats.outreachActive} />
+      {!isMobile && (
+        <>
+          <div style={{ flex: 1 }} />
+          <div style={{ textAlign: 'right' }}>
+            <div className="serif" style={{ fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.1 }}>
+              The best practice is the one you can actually own.
+            </div>
+            <div className="mono" style={{ fontSize: 10, color: 'var(--ink-4)', marginTop: 2, textTransform: 'uppercase', letterSpacing: 0.6 }}>
+              — filter ruthlessly
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }
