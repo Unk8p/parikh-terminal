@@ -75,7 +75,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -89,6 +89,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -166,7 +170,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -180,6 +184,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -257,7 +265,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -271,6 +279,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -348,7 +360,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -362,6 +374,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -439,7 +455,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -453,6 +469,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -530,7 +550,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -544,6 +564,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -621,7 +645,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -635,6 +659,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -714,7 +742,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -728,6 +756,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -808,7 +840,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -822,6 +854,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -899,7 +935,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -913,6 +949,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -990,7 +1030,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1004,6 +1044,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1081,7 +1125,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1095,6 +1139,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1174,7 +1222,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1188,6 +1236,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1265,7 +1317,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1279,6 +1331,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1356,7 +1412,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1370,6 +1426,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1447,7 +1507,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1461,6 +1521,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1538,7 +1602,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1552,6 +1616,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1629,7 +1697,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1643,6 +1711,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1720,7 +1792,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1734,6 +1806,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1811,7 +1887,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1825,6 +1901,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1902,7 +1982,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -1916,6 +1996,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -1993,7 +2077,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2007,6 +2091,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2084,7 +2172,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2098,6 +2186,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2175,7 +2267,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2189,6 +2281,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2266,7 +2362,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2280,6 +2376,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2357,7 +2457,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2371,6 +2471,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2448,7 +2552,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2462,6 +2566,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2539,7 +2647,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2553,6 +2661,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2630,7 +2742,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2644,6 +2756,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2721,7 +2837,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2735,6 +2851,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2812,7 +2932,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2826,6 +2946,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2903,7 +3027,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -2917,6 +3041,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -2994,7 +3122,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3008,6 +3136,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3085,7 +3217,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3099,6 +3231,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3176,7 +3312,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3190,6 +3326,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3267,7 +3407,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3281,6 +3421,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3358,7 +3502,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3372,6 +3516,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3449,7 +3597,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3463,6 +3611,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3540,7 +3692,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3554,6 +3706,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3631,7 +3787,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3643,6 +3799,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -3722,7 +3882,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3736,6 +3896,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3813,7 +3977,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3825,6 +3989,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -3904,7 +4072,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -3918,6 +4086,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -3995,7 +4167,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4009,6 +4181,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4086,7 +4262,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4100,6 +4276,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4177,7 +4357,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4189,6 +4369,10 @@ window.PARIKH_DATA = {
           "conf": "inferred"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -4268,7 +4452,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4282,6 +4466,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4359,7 +4547,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4373,6 +4561,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4450,7 +4642,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4464,6 +4656,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4541,7 +4737,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4555,6 +4751,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4632,7 +4832,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4644,6 +4844,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -4723,7 +4927,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4737,6 +4941,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4814,7 +5022,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4828,6 +5036,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4905,7 +5117,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -4919,6 +5131,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -4996,7 +5212,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5010,6 +5226,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5087,7 +5307,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5101,6 +5321,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5178,7 +5402,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5190,6 +5414,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -5270,7 +5498,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5284,6 +5512,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5362,7 +5594,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5376,6 +5608,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5454,7 +5690,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5468,6 +5704,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5546,7 +5786,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5560,6 +5800,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5638,7 +5882,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5652,6 +5896,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5756,7 +6004,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5770,6 +6018,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5799,8 +6051,8 @@ window.PARIKH_DATA = {
       ],
       "enrich": {
         "practiceUrl": {
-          "value": null,
-          "conf": "unknown"
+          "value": "https://www.wellness.com/dir/2293359/dentist/or/portland/tigard-dental",
+          "conf": "inferred"
         },
         "ownerName": {
           "value": null,
@@ -5848,7 +6100,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5862,6 +6114,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -5940,7 +6196,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -5954,6 +6210,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6032,7 +6292,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6046,6 +6306,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6124,7 +6388,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6138,6 +6402,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6216,7 +6484,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6230,6 +6498,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6308,7 +6580,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6322,6 +6594,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6400,7 +6676,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6414,6 +6690,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6492,7 +6772,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6506,6 +6786,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6584,7 +6868,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6598,6 +6882,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6627,8 +6915,8 @@ window.PARIKH_DATA = {
       ],
       "enrich": {
         "practiceUrl": {
-          "value": null,
-          "conf": "unknown"
+          "value": "https://florenceimplantclinic.com/",
+          "conf": "inferred"
         },
         "ownerName": {
           "value": null,
@@ -6652,8 +6940,11 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "proceduresOffered": {
-          "value": null,
-          "conf": "unknown"
+          "value": [
+            "Dentures",
+            "Implants"
+          ],
+          "conf": "inferred"
         },
         "recentHeadlines": {
           "value": null,
@@ -6676,7 +6967,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6690,6 +6981,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": "Florence Implant Clinic",
+          "conf": "inferred"
         }
       }
     },
@@ -6768,7 +7063,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6782,6 +7077,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6859,7 +7158,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6873,6 +7172,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "info@1stMedTransitions.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -6950,7 +7253,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -6964,6 +7267,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7041,7 +7348,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7055,6 +7362,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7132,7 +7443,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7146,6 +7457,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7223,7 +7538,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7237,6 +7552,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7314,7 +7633,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7328,6 +7647,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7405,7 +7728,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7417,6 +7740,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -7496,7 +7823,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7510,6 +7837,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7587,7 +7918,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7599,6 +7930,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -7678,7 +8013,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7692,6 +8027,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7772,7 +8111,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7786,6 +8125,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7863,7 +8206,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7877,6 +8220,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -7954,7 +8301,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -7968,6 +8315,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8045,7 +8396,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8059,6 +8410,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8137,7 +8492,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8151,6 +8506,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8229,7 +8588,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8243,6 +8602,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8321,7 +8684,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8335,6 +8698,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8413,7 +8780,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8427,6 +8794,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8505,7 +8876,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8519,6 +8890,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8597,7 +8972,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8611,6 +8986,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8689,7 +9068,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8703,6 +9082,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8781,7 +9164,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8795,6 +9178,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -8899,7 +9286,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -8911,6 +9298,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -8991,7 +9382,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9003,6 +9394,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -9034,8 +9429,8 @@ window.PARIKH_DATA = {
       ],
       "enrich": {
         "practiceUrl": {
-          "value": null,
-          "conf": "unknown"
+          "value": "https://www.olympiadentures.com/",
+          "conf": "inferred"
         },
         "ownerName": {
           "value": null,
@@ -9059,8 +9454,11 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "proceduresOffered": {
-          "value": null,
-          "conf": "unknown"
+          "value": [
+            "Dentures",
+            "Implants"
+          ],
+          "conf": "inferred"
         },
         "recentHeadlines": {
           "value": null,
@@ -9083,7 +9481,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9097,6 +9495,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": null,
           "conf": "unknown"
+        },
+        "brandName": {
+          "value": "Lilly Denture Center",
+          "conf": "inferred"
         }
       }
     },
@@ -9175,7 +9577,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9187,6 +9589,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -9267,7 +9673,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9279,6 +9685,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -9359,7 +9769,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9371,6 +9781,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -9451,7 +9865,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9465,6 +9879,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -9543,7 +9961,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9557,6 +9975,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -9635,7 +10057,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9649,6 +10071,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -9727,7 +10153,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9741,6 +10167,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -9819,7 +10249,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9833,6 +10263,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -9862,8 +10296,8 @@ window.PARIKH_DATA = {
       ],
       "enrich": {
         "practiceUrl": {
-          "value": null,
-          "conf": "unknown"
+          "value": "https://www.smilegeneration.com/dentist/oh/upper-arlington/1217-dentists-of-upper-arlington/",
+          "conf": "inferred"
         },
         "ownerName": {
           "value": null,
@@ -9887,8 +10321,19 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "proceduresOffered": {
-          "value": null,
-          "conf": "unknown"
+          "value": [
+            "Clear aligners",
+            "Cosmetic",
+            "Crowns",
+            "Dentures",
+            "Endo",
+            "Extractions",
+            "Implants",
+            "Perio",
+            "Veneers",
+            "Whitening"
+          ],
+          "conf": "inferred"
         },
         "recentHeadlines": {
           "value": null,
@@ -9911,7 +10356,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -9925,6 +10370,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": "Dental Office in Upper Arlington, OH",
+          "conf": "inferred"
         }
       }
     },
@@ -10003,7 +10452,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10017,6 +10466,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10095,7 +10548,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10109,6 +10562,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10187,7 +10644,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10201,6 +10658,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10279,7 +10740,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10293,6 +10754,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10373,7 +10838,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10387,6 +10852,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10465,7 +10934,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10479,6 +10948,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10557,7 +11030,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10571,6 +11044,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10649,7 +11126,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10663,6 +11140,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10741,7 +11222,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10755,6 +11236,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10833,7 +11318,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10847,6 +11332,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -10925,7 +11414,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -10939,6 +11428,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -11017,7 +11510,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11031,6 +11524,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -11109,7 +11606,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11123,6 +11620,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -11201,7 +11702,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11215,6 +11716,10 @@ window.PARIKH_DATA = {
         "brokerEmail": {
           "value": "hello@getprovide.com",
           "conf": "verified"
+        },
+        "brandName": {
+          "value": null,
+          "conf": "unknown"
         }
       }
     },
@@ -11293,7 +11798,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11305,6 +11810,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11385,7 +11894,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11397,6 +11906,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11477,7 +11990,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11489,6 +12002,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11569,7 +12086,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11581,6 +12098,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11661,7 +12182,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11673,6 +12194,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11753,7 +12278,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11765,6 +12290,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11845,7 +12374,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11857,6 +12386,10 @@ window.PARIKH_DATA = {
           "conf": "unknown"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -11939,7 +12472,7 @@ window.PARIKH_DATA = {
           "conf": "verified"
         },
         "lastChecked": {
-          "value": "2026-04-19T18:44:34+00:00",
+          "value": "2026-11-26T18:00:45+00:00",
           "conf": "verified"
         },
         "brokerName": {
@@ -11951,6 +12484,10 @@ window.PARIKH_DATA = {
           "conf": "inferred"
         },
         "brokerEmail": {
+          "value": null,
+          "conf": "unknown"
+        },
+        "brandName": {
           "value": null,
           "conf": "unknown"
         }
@@ -12007,7 +12544,7 @@ window.PARIKH_DATA = {
       "notes": "Not on Shreya's rank list"
     }
   },
-  "generated": "2026-04-19T18:59:57+00:00Z"
+  "generated": "2026-11-26T18:00:59+00:00Z"
 };
 window.PARIKH_BROKERS = [
   {
